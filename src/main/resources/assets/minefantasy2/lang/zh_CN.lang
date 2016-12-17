@@ -1,0 +1,2807 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/INFORMATION/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+forge.fuel.name=~燃料~
+vehicle.fuel.name=燃料: %1$s
+info.bow.reload=潜行状态下右键打开火器。
+
+info.firearm.ammo=%1$s/%2$s
+
+attribute.kit.salvage.name=修复修饰符
+
+attribute.kit.repairRate.name=修复值
+attribute.kit.repairRate_enchant.name=修复值 (附魔物品) 
+attribute.kit.repairRate_normal.name=修复值 (普通物品) 
+
+attribute.kit.repairChance.name=修复成功率
+attribute.kit.breakChance.name=修复失败率
+
+attribute.inferior.name=次品
+attribute.superior.name=精品
+
+item.infobook.name=研究手册
+item.research_scroll.name=研究卷轴
+item.research_scroll_complete.name=成功研究
+
+item.talisman_lesser.name=小型知识护身符
+item.talisman_greater.name=大型知识护身符
+
+prospect.canmine=你可以采集它! (工具: %1$s | 方块: %2$s)
+prospect.cannotmine=你无法采集它! (工具: %1$s | 方块: %2$s)
+gui.information=研究
+information.discovered=已研究
+information.buy=点击研究
+knowledge.unknownUse=你不知道如何使用它!
+knowledge.known=你已经知道这个了
+knowledge.hasScroll=你已经拥有这个卷轴!
+knowledge.cantafford=资源不足!
+
+infoPage.basic=基本信息
+infoPage.artisanry=手艺
+infoPage.construction=建造
+infoPage.provisioning=食物
+infoPage.engineering=工程
+infoPage.mastery=精通
+infoPage.dwarvern=矮人
+infoPage.gnomish=侏儒
+
+knowledge.unlocked=研究完毕
+
+vehicle.noArmour=你不能穿这套衣服
+vehicle.tooBigArmour=你不能穿这套过大的衣服
+
+research.noskill=You may learn something from this，with more skill.
+research.null=There is nothing to learn from this.
+
+research.addArtefact=Added Knowledge to %1$s (%2$s/%3$s)
+research.finishResearch=Finished Research for %1$s
+research.cluecount= (%1$s/%2$s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/MOBS/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+entity.MF_Minotaur.name=牛头人
+entity.MF_Dragon.name=龙
+death.attack.dragonstomp=%1$s 被 龙 踩死了
+death.attack.humanstomp=%1$s 被 %2$s 踩死了
+death.attack.fireblast=%1$s 被 %2$s 烤熟了
+death.attack.fireblastBase=%1$s 被烤熟了
+death.attack.blastfurn=%1$s 被高炉焚烧
+death.attack.frostblast=%1$s 被 %2$s 冻结
+death.attack.frostblastBase=%1$s 被冻住，不许走。
+death.attack.acidblast=%1$s 被 %2$s 蒸发了
+death.attack.acidblastBase=%1$s 蒸发了
+death.attack.ashblast=%1$s was Suffocated by %2$s
+death.attack.ashblastBase=%1$s was Suffocated
+
+death.attack.mob.pound=%1$s 被一只 %2$s 袭击了
+death.attack.mob.gore=%1$s 被一只 %2$s 刺伤了
+death.attack.mob.beserk=%1$s 被一只 %2$s 撕裂了
+
+entity.minotaur.name=棕毛牛头人
+entity.frostminotaur.name=冰霜牛头人
+entity.dredminotaur.name=噩梦牛头人
+
+entity.dragonbreed.red.name=赤炎
+entity.dragonbreed.white.name=冰霜
+entity.dragonbreed.black.name=梦魇
+entity.dragonbreed.green.name=绿沼
+
+
+entity.dragon_young.name=[幼年]%1$s幼龙
+entity.dragon.name=[青年]%1$s巨龙
+entity.dragon_mature.name=[成年]%1$s巨龙
+entity.dragon_elder.name=[长者]%1$s巨龙
+entity.dragon_ancient.name=[古代]%1$s巨龙
+
+event.dragonnear.name=一只巨龙在附近徘徊，捏碎它们。
+
+event.dragonnear.forge.name=你的手艺侮辱了龙类！
+event.dragonaway.name=巨龙已经离开。
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/TOOL LIST/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.tool_pick.name=%1$s镐
+item.commodity_plank.name=%1$s木料
+item.haft.name=柄
+item.commodity_hunk.name=%1$s片
+item.commodity_scrap.name=%1$s废料
+item.commodity_plate.name=%1$s板
+
+item.commodity_plate_huge.name=大型%1$s板
+item.commodity_chainmesh.name=%1$s链网
+item.commodity_scalemesh.name=%1$s鳞网
+item.commodity_splintmesh.name=%1$s板网
+item.commodity_plateheavy.name=重型%1$s板
+item.commodity_arrowhead.name=%1$s箭头
+item.commodity_bodkinhead.name=%1$s穿甲箭头
+item.commodity_broadhead.name=%1$s宽型箭头
+item.commodity_cogwork_armour.name=%1$s蒸汽外骨骼装甲
+item.mod_plating.name=%1$s镀层
+item.mod_head.name=%1$s头
+item.mod_haft.name=%1$s柄
+item.mod_joint.name=%1$s关节
+
+
+
+
+
+
+component.head.name=%1$s头
+component.shaft.name=%1$s轴
+component.grip.name=%1$s握把
+component.brace.name=%1$s支架
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/MATERIAL LIST/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+materialtype.wood.name=木材等级: %1$s
+materialtype.leather.name=皮革等级: %1$s
+materialtype.metal.name=金属等级: %1$s
+materialtype.workable.name=锻造温度: %1$s*C - %2$s*C
+
+materialtype.resist.name=%1$s 抗性
+materialtype.fireresist.name=%1$s 火焰抗性
+materialtype.maxtemp.name=%1$s*C 熔点
+material.any.name=任何
+
+WOOD
+material.scrapwood.name=废木
+material.oakwood.name=橡木
+material.birchwood.name=桦木
+material.sprucewood.name=云杉木
+material.acaciawood.name=金合欢木
+material.junglewood.name=丛林木
+material.refinedwood.name=精制木
+material.ironbarkwood.name=铁皮木
+material.ebonywood.name=乌木
+material.darkoakwood.name=黑橡木
+material.pinewood.name=松木
+material.cherrywood.name=樱桃木
+material.poplarwood.name=白杨木
+material.maplewood.name=枫木
+material.mahoewood.name=瑞香科灌木
+material.greenheartwood.name=青心木
+material.palmwood.name=棕榈木
+material.limewood.name=椴木
+material.balsawood.name=轻木
+material.walnutwood.name=胡桃木
+material.chestnutwood.name=栗木
+material.larchwood.name=落叶松木
+material.willowwood.name=柳木
+material.teakwood.name=柚木
+material.sequoiawood.name=红杉木
+material.mahoganywood.name=桃花心木
+material.wengewood.name=鸡翅木
+material.redwoodwood.name=红木
+material.firwood.name=冷杉木
+material.purpleheartwood.name=紫心木
+material.silverwoodwood.name=银木
+material.greatwoodwood.name=宏伟之木
+material.yewwood.name=紫杉木
+
+
+
+LEATHER
+material.leather.name=皮革
+material.hardleather.name=强化皮革
+material.minotaurskin.name=弥诺陶皮革
+material.dragonskin.name=龙皮
+
+METAL
+material.copper.name=铜
+material.tin.name=锡
+
+material.bronze.name=青铜
+material.iron.name=铁
+material.refinediron.name=精铁
+material.steel.name=钢
+material.tungsten.name=黑钨
+material.obsidian.name=黑曜石
+material.encrusted.name=镶钻
+material.blacksteel.name=黑钢
+material.redsteel.name=赤钢
+material.bluesteel.name=蓝钢
+
+material.adamantium.name=艾达曼合金
+material.mithril.name=秘银
+material.ignotumite.name=依格洛特
+material.mithium.name=锂
+material.ender.name=末影
+
+PRECIOUS
+material.gold.name=金
+material.silver.name=银
+
+NON-MF
+material.bismuth.name=铋
+material.bismuthbronze.name=铋青铜
+material.nickel.name=镍
+material.titanium.name=钛
+material.stainlesssteel.name=不锈钢
+
+ALLOY
+material.compositealloy.name=复合合金
+
+MOD
+material.thaumium.name=神秘
+material.void.name=虚空
+material.manasteel.name=魔力钢
+material.elvenelementium.name=源质
+material.terrasteel.name=泰拉钢
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ITEM STATS/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prefix.hotitem.name=加热的%1$s
+state.workable=可锻造
+state.unstable=不可锻造
+attribute.weightt.name=重量: %1$st
+attribute.weightKg.name=重量: %1$sKg
+attribute.weightg.name=重量: %1$sg
+attribute.nomfcrafttier.name=任何等级
+attribute.mfcrafttier.name=工具等级
+attribute.mfcrafttool.name=工具类别
+attribute.mfcrafteff.name=工具效率
+attribute.mfcraftedbyname.name=制作者
+tooltype.hammer=锤
+tooltype.hvyHammer=重锤
+tooltype.saw=锯
+tooltype.knife=匕首
+tooltype.needle=针
+tooltype.mallet=槌
+tooltype.spoon=勺
+tooltype.hands=徒手
+tooltype.spanner=扳手
+tooltype.shears=剪刀
+tooltype.brush=油漆刷
+
+tooltype.anvil=砧
+tooltype.carpenter=木匠工作台
+
+attribute.weapon.penetrateArmor=破甲
+attribute.weapon.daze=眩晕
+attribute.weapon.extendedReach=攻击距离
+attribute.weapon.attackSpeed=攻击速度
+attribute.weapon.backstab=背刺
+attribute.weapon.mountedBonus=骑乘加成
+attribute.weapon.joustDam=骑乘伤害
+attribute.shield.block.time=s 格挡
+attribute.shield.arrow.count=箭
+attribute.quiver.arrow.empty=空
+attribute.quiver.arrow.count=箭
+
+attribute.armour.protection=护甲值
+attribute.armour.light=轻型盔甲
+attribute.armour.medium=中型盔甲
+attribute.armour.heavy=重型盔甲
+attribute.weight.name=重量
+
+attribute.bowPower.name=伤害倍数 x%1$s
+attribute.arrowPower.name=伤害
+
+attribute.armour.rating.0=切割防护:
+attribute.armour.rating.1=钝击防护:
+attribute.armour.rating.2=穿刺防护:
+
+attribute.armour.cuttingresistance=切割抗性
+attribute.armour.bluntresistance=钝击抗性
+attribute.armour.piercingresistance=穿刺抗性
+
+attribute.weapon.cutting=切割伤害
+attribute.weapon.blunt=钝击伤害
+attribute.weapon.piercing=穿刺伤害
+
+attribute.armour.dtcutting=切割阈值
+attribute.armour.dtblunt=钝击阈值
+attribute.armour.dtpiercing=穿刺阈值
+
+arrow.head.normal.name=常规箭头
+arrow.head.bodkin.name=穿甲箭头
+arrow.head.broad.name=宽形箭头
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/COMMODITY/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.plank.name=木材
+item.plant_oil.name=植物油
+item.plankRefined.name=精炼的木材
+item.rivet.name=铆钉
+item.nail.name=钉子
+item.thread.name=线
+item.lime_rock.name=石灰岩
+item.borax_rock.name=硼砂
+item.flux.name=熔剂
+item.flux_strong.name=强助熔剂
+item.coal_prep.name=精煤
+item.coke.name=焦炭
+item.blackpowder.name=黑火药
+item.blackpowder_advanced.name=先进的火药
+item.bolt.name=螺栓
+item.flux_pot.name=良好的熔剂
+item.coal_flux.name=煤熔剂
+
+item.ingotCopper.name=铜锭
+item.ingotTin.name=锡锭
+item.ingotBronze.name=青铜锭
+item.ingotPigIron.name=生铁锭
+item.ingotSteel.name=钢锭
+item.ingotEncrusted.name=镶钻锭
+item.ingotObsidian.name=黑曜石锭
+item.ingotSilver.name=银锭
+item.ingotPureGold.name=纯金锭
+
+item.ingotBlackSteelWeak.name=未精炼的黑钢
+item.ingotBlueSteelWeak.name=未精炼的蓝钢
+item.ingotRedSteelWeak.name=未精炼的赤钢
+
+item.ingotRedSteel.name=赤钢锭
+item.ingotBlackSteel.name=黑钢锭
+item.ingotBlueSteel.name=蓝钢锭
+
+item.ingotAdamantium.name=艾达曼锭
+item.ingotMithril.name=秘银锭
+
+item.ingotIgnotumite.name=依格洛特锭
+item.ingotMithium.name=锂锭
+
+item.ingotEnder.name=末影锭
+
+item.ingotTungsten.name=黑钨锭
+
+item.loot_sack.name=战利品
+item.loot_sack_uc.name=贵重的战利品
+item.loot_sack_rare.name=精致的战利品
+
+item.copper_coin.name=铜币
+item.silver_coin.name=银币
+item.gold_coin.name=金币
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/COMPONENT/
+item.ingot_mould.name=锭模
+item.ingot_mould_uncooked.name=未加工的锭模
+
+item.clay_pot.name=陶壶
+item.clay_pot_uncooked.name=未加工的陶壶
+
+item.jug_empty.name=空罐子
+item.jug_uncooked.name=未加工的罐子
+item.jug_water.name=水罐
+item.jug_milk.name=牛奶罐
+
+tile.salvage_basic.name=基础回收站
+tile.salvage_advanced.name=高级回收站
+
+tile.repair_basic.name=基本维修工具
+tile.repair_advanced.name=高级维修工具
+tile.repair_ornate.name=华丽维修工具
+
+item.rawhideSmall.name=小型皮革
+item.rawhideMedium.name=中型皮革
+item.rawhideLarge.name=大型皮革
+
+
+item.leather_strip.name=皮革条
+item.hideSmall.name=干净的型皮革
+item.hideMedium.name=干净的中型皮革
+item.hideLarge.name=干净的大型皮革
+
+
+
+item.vine.name=藤蔓
+item.sharp_rock.name=锋利的岩石
+
+
+
+
+item.iron_prep.name=制备的铁矿石
+item.diamond_shards.name=钻石碎片
+item.diamond_dust.name=钻石粉
+item.obsidian_rock.name=黑曜岩
+item.fletching.name=箭羽
+
+
+
+item.coalDust.name=煤粉
+item.nitre.name=硝石
+item.sulfur.name=硫黄
+item.bomb_casing_uncooked.name=粘土炸弹壳
+item.bomb_casing.name=炸弹壳
+item.mine_casing_uncooked.name=黏土地雷壳
+item.mine_casing.name=地雷壳
+item.shrapnel.name=弹片
+item.magma_cream_refined.name=精制的岩浆膏
+item.bomb_fuse.name=导火索
+item.bomb_fuse_long.name=加长版导火索
+item.bomb_casing_iron.name=铁炸弹
+item.mine_casing_iron.name=铁地雷
+item.bomb_casing_obsidian.name=黑曜石炸弹壳
+item.mine_casing_obsidian.name=黑曜石地雷壳
+item.bomb_casing_crystal.name=水晶炸弹壳
+item.mine_casing_crystal.name=水晶地雷壳
+item.bomb_casing_arrow.name=箭头弹壳
+item.bomb_casing_bolt.name=螺栓弹壳
+
+
+
+
+item.clay_brick.name=粘土砖
+item.kaolinite.name=高岭石
+item.kaolinite_dust.name=高岭石粉
+item.fireclay.name=耐火粘土
+item.fireclay_brick.name=耐火粘土砖
+item.strong_brick.name=耐火砖
+
+
+
+
+item.hunkCopper.name=铜块
+item.hunkTin.name=锡块
+item.hunkBronze.name=青铜块
+item.hunkIron.name=铁块
+item.hunkPigIron.name=生铁块
+item.hunkSteel.name=钢块
+item.hunkEncrusted.name=镶钻块
+item.hunkSilver.name=银块
+
+item.hunkGold.name=金块
+item.hunkPureGold.name=纯金块
+item.hunkRedSteel.name=赤钢块
+
+
+
+item.hunkBlackSteel.name=黑钢块
+item.hunkBlueSteel.name=蓝钢块
+item.hunkAdamantium.name=艾达曼合金块
+item.hunkMithril.name=秘银块
+item.hunkIgnotumite.name=依格洛特块
+item.hunkMithium.name=锂块
+item.hunkEnder.name=末影块
+item.hunkTungsten.name=黑钨块
+
+
+
+item.oreCopper.name=原铜矿
+item.oreTin.name=原锡矿
+
+item.oreIron.name=原铁矿
+item.oreSilver.name=原银矿
+item.oreGold.name=原金矿
+item.oreTungsten.name=原黑钨矿
+
+
+item.plateBronze.name=青铜板
+
+item.plateIron.name=铁板
+item.plateSteel.name=钢板
+item.plateEncrusted.name=镶钻板
+item.plateBlackSteel.name=黑钢板
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+item.plateRedSteel.name=赤钢板
+item.plateBlueSteel.name=蓝钢板
+item.plateAdamantium.name=艾达曼合金板
+item.plateMithril.name=秘银板
+item.plateIgnotumite.name=依格洛特板
+
+
+
+item.plateMithium.name=锂板
+item.plateEnder.name=末影板
+item.ingotCompositeAlloy.name=复合合金锭
+
+
+
+item.chainmeshCopper.name=铜链网
+item.chainmeshBronze.name=青铜链网
+item.chainmeshIron.name=铁链网
+item.chainmeshSteel.name=钢链网
+item.chainmeshEncrusted.name=装饰链网
+item.chainmeshBlackSteel.name=黑钢链网
+
+
+
+
+
+
+
+item.chainmeshRedSteel.name=赤钢链网
+item.chainmeshBlueSteel.name=蓝钢链网
+item.chainmeshAdamantium.name=艾德曼合金链网
+item.chainmeshMithril.name=秘银链网
+item.chainmeshIgnotumite.name=依格洛特块链网
+item.chainmeshMithium.name=锂链网
+item.chainmeshEnder.name=末影链网
+item.dragon_heart.name=龙心
+
+item.iron_frame.name=铁框架
+item.iron_strut.name=铁压杆
+item.bronze_gears.name=青铜齿轮组
+item.tungsten_gears.name=复杂的齿轮组
+item.steel_tube.name=钢管
+item.cogwork_shaft.name=齿轮轴
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/GADGET/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.spyglass.name=望远镜
+item.climbing_pick_basic.name=登山镐
+item.parachute.name=降落伞
+item.syringe_empty.name=空的注射器
+
+tile.cogwork_helm.name=外骨骼头盔座
+tile.cogwork_chest.name=外骨骼胸甲座
+tile.cogwork_legs.name=外骨骼胫甲座
+tile.frame_block.name=帧块
+tile.cogwork_builder.name=外骨骼钩
+item.cogwork_pulley.name=外骨骼滑轮
+bomb.component.name=炸弹组件
+bomb.component.filling=填充
+bomb.component.bombcase=炸弹壳
+bomb.component.minecase=地雷壳
+bomb.component.arrow=弓箭壳
+bomb.component.bolt=弩箭壳
+bomb.component.fuse=雷管
+bomb.component.powder=粉末
+
+crossbow.component.name=弩弓组件
+crossbow.component.stock=空
+crossbow.component.mechanism=弩臂
+crossbow.component.mod=模组
+crossbow.component.muzzle=刺刀
+
+
+
+
+
+
+item.bomb_crude.name=粗制炸弹
+item.bomb_basic.name=炸弹
+item.bomb_shrapnel.name=弹片炸弹
+item.bomb_fire.name=燃烧弹
+item.exploding_arrow.name=炸弹箭
+item.exploding_bolt.name=爆炸弩箭
+
+
+item.mine_basic.name=地雷
+item.mine_shrapnel.name=弹片地雷
+item.mine_fire.name=燃烧地雷
+
+
+
+
+
+
+
+
+
+death.attack.mine=%1$s 踩到了地雷
+death.attack.bomb.thrown=%1$s被%2$s炸死了
+death.attack.bomb=%1$s被一个炸弹炸死了
+death.attack.bomb.suicide=%1$s炸死了自己...
+
+
+
+
+
+
+bomb.powder.blackpowder.name=装填黑火药
+bomb.powder.advBlackpowder.name=装填高级黑火药
+bomb.fuse.basic.name=导火线
+bomb.fuse.long.name=长导火线
+bomb.case.crude.name=纸壳
+bomb.case.ceramic.name=陶瓷壳
+bomb.case.iron.name=铁壳
+bomb.case.obsidian.name=黑曜石壳
+bomb.case.crystal.name=水晶壳
+bomb.damage.name=爆炸伤害
+bomb.range.metric.name=爆炸范围: %1$s 米
+bomb.fusetime.name=点燃时间: %1$s 秒
+bomb.case.sticky=粘性
+
+
+
+
+
+gui.bombcraftmf.name=制作炸弹
+gui.crossbowcraftmf.name=制作弩弓
+
+
+
+
+attribute.crossbow.power.name=伤害系数 x%1$s
+attribute.crossbow.speed.name=装填时间  = %1$ss
+attribute.crossbow.spread.name=射击范围 x%1$s
+attribute.crossbow.recoil.name=后坐力 x%1$s
+attribute.crossbow.capacity.name=弹药容量 = %1$s
+attribute.crossbow.bash.name=近战伤害 = %1$s
+
+
+
+
+
+crosspart.stock.cross_stock_wood=弩身
+crosspart.stock.cross_stock_iron=弩身
+crosspart.stock.cross_handle_wood=手弩
+crosspart.mechanism.cross_arms_light=轻型
+crosspart.mechanism.cross_arms_heavy=重型
+crosspart.mechanism.cross_arms_advanced=高级
+crosspart.mod.cross_ammo=换弹
+crosspart.mod.cross_scope=瞄准
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+item.cross_stock_wood.name=弩弓
+item.cross_handle_wood.name=手弩
+item.cross_stock_iron.name=高级弩身
+item.cross_arms_light.name=轻型弩臂
+item.cross_arms_basic.name=弩臂
+item.cross_arms_heavy.name=重型弩臂
+item.cross_arms_advanced.name=高级弩臂
+item.cross_ammo.name=连弩机构
+item.cross_scope.name=弓弩瞄准镜
+item.cross_bayonet.name=弓弩刺刀
+
+
+
+
+
+
+
+
+
+
+item.cross_stock_wood.desc=标准。
+item.cross_handle_wood.desc=快速换弹，更多的后坐力和扩散。
+
+item.cross_stock_iron.desc=降低后坐力
+item.cross_arms_light.desc=更低的伤害和后坐力，射速快。
+
+item.cross_arms_basic.desc=标准.
+item.cross_arms_heavy.desc=更高的伤害和后坐力，射速慢.
+item.cross_arms_advanced.desc=更高的精度和伤害，但射速慢，后坐力大.
+item.cross_ammo.desc=6x 弹药容量，增加扩散.
+item.cross_scope.desc=增加缩放功能.
+item.cross_bayonet.desc=增加近战伤害，减少后坐力，慢速换弹.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ORES/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tile.oreCopper.name=铜矿
+tile.oreTin.name=锡矿
+tile.oreSilver.name=银矿
+tile.oreTungsten.name=黑钨矿
+tile.oreMythic.name=秘银矿
+tile.oreMythicPure.name=纯净秘银矿
+
+tile.oreClay.name=含粘土的泥土
+tile.oreBorax.name=硼砂矿
+tile.oreKaolinite.name=高岭土矿
+tile.oreNitre.name=硝石矿
+tile.oreSulfur.name=硫磺矿
+tile.oreCoalRich.name=富煤矿
+
+tile.window.name=窗户
+tile.window_pane.name=窗板
+tile.mud_pavement.name=粗泥砖
+tile.mud_pavement_stair.name=粗泥砖台阶
+tile.mud_brick.name=泥砖
+tile.mud_brick_stair.name=泥砖台阶
+tile.thatch.name=茅草
+tile.thatch_stair.name=茅草楼梯
+
+tile.limestone.name=石灰岩
+tile.limestone_cobblestone.name=石灰圆石
+tile.limestone_brick.name=石灰岩砖
+tile.limestone_pavement.name=石灰岩路
+tile.limestone_stair.name=石灰岩楼梯
+tile.limestone_cobblestone_stair.name=石灰圆石楼梯
+tile.limestone_brick_stair.name=石灰岩砖楼梯
+tile.limestone_pavement_stair.name=石灰岩路楼梯
+
+tile.slate.name=石板
+tile.slate_cobblestone.name=鹅卵石板
+tile.slate_brick.name=石板砖
+tile.slate_pavement.name=石板路
+tile.slate_stair.name=石板台阶
+tile.slate_cobblestone_stair.name=鹅卵石台阶
+tile.slate_brick_stair.name=鹅卵石板砖
+tile.slate_pavement_stair.name=石板路台阶
+tile.framed_glass.name=带框架的玻璃
+tile.framed_pane.name=带框架的玻璃片
+tile.firebricks.name=耐火石砖
+tile.firebrick_stair.name=耐火石台阶
+tile.cobble_pavement.name=鹅卵石路面
+tile.cobble_pavement_stair.name=鹅卵石台阶路面
+tile.cobble_brick.name=鹅卵石砖
+tile.cobble_brick_stair.name=鹅卵石台阶
+tile.clayWall.name=粘土墙板
+tile.ironbark_log.name=铁木
+tile.ebony_log.name=乌木
+tile.yew_log.name=紫衫木
+tile.ironbark_leaves.name=铁树叶
+tile.ebony_leaves.name=乌木树叶
+tile.yew_leaves.name=紫衫树叶
+tile.ironbark_sapling.name=铁树苗
+tile.ebony_sapling.name=乌木树苗
+tile.yew_sapling.name=紫衫树苗
+tile.ironbark_planks.name=铁木板
+tile.ebony_planks.name=乌木木板
+tile.yew_planks.name=紫衫木板
+tile.ironbark_stair.name=铁木台阶
+tile.ebony_stair.name=乌木台阶
+tile.yew_stair.name=紫衫木台阶
+
+
+tile.nailed_planks.name=钉板
+tile.refined_planks.name=精致钉板
+tile.nailed_planks_stair.name=钉板台阶
+tile.refined_planks_stair.name=精致钉板台阶
+tile.reinforced_stone.name=结实的石头
+tile.reinforced_stone_bricks.name=.结实石头砖
+tile.reinforced_stone_framed.name=加固结实石头
+tile.reinforced_stone_stair.name=结实石头台阶
+tile.reinforced_stone_brick_stair.name=结实石头砖台阶
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tile.bronze_bars.name=青铜栅栏
+
+tile.iron_bars.name=铁栅栏
+tile.steel_bars.name=钢栅栏
+tile.dragonforge_bars.name=龙铸栅栏
+tile.redsteel_bars.name=赤钢栅栏
+tile.blacksteel_bars.name=黑钢栅栏
+tile.bluesteel_bars.name=蓝钢栅栏
+
+
+
+
+
+
+
+tile.copper_block.name=铜块
+tile.tin_block.name=锡块
+tile.silver_block.name=银块
+tile.pigiron_block.name=生铁块
+
+
+
+
+
+tile.bronze_block.name=青铜块
+tile.steel_block.name=钢块
+tile.dragonforge_block.name=龙铸块
+
+tile.redsteel_block.name=红钢块
+tile.blacksteel_block.name=黑钢块
+tile.bluesteel_block.name=蓝钢块
+
+tile.adamantium_block.name=艾达曼合金块
+tile.mithril_block.name=秘银块
+tile.ignotumite_block.name=依格洛特块
+tile.mithium_block.name=锂块
+
+
+
+tile.ender_block.name=末影块
+
+
+
+
+tile.forge.stone.name=石头锻造厂
+tile.forge.metal.name=高级锻造厂
+tile.bloomery.name=锻铁炉
+tile.crucible.stone.name=石坩埚
+tile.crucible.fireclay.name=耐火坩埚
+tile.crucible.auto.name=高级的坩埚
+tile.chimney.stone.name=石头烟囱
+tile.chimney.stone.wide.name=宽的石头烟囱
+tile.chimney.stone_extractor.wide.name=石头烟囱提取器
+tile.chimney.pipe.name=烟管
+tile.bellows.name=风箱
+
+
+tile.tanner.name=破旧的制革架
+tile.tannerStrong.name=制革架
+tile.tannerMetal.name=高级的制革架
+tile.bombBench.name=炸弹组装台
+tile.crossbowBench.name=弓弩组装台
+tile.bombPress.name=炸弹组装机
+tile.carpenterBench.name=木匠工作台
+tile.researchStation.name=研究工作台
+tile.quern.name=手推磨
+
+
+tile.anvilStone.name=石砧
+tile.anvilBronze.name=青铜砧
+tile.anvilIron.name=铁砧
+tile.anvilSteel.name=钢砧
+tile.anvilBlackSteel.name=黑钢砧
+tile.anvilRedSteel.name=赤钢砧
+tile.anvilBlueSteel.name=蓝钢砧
+tile.furnace_stone.name=火炉
+tile.furnace_heater.name=火炉加热器
+tile.blastfurnchamber.name=高炉炉室
+tile.blastfurnheater.name=高炉加热器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tile.firepit.name=火塘
+tile.food_roast_basic.name=烹饪板
+tile.food_oven_basic.name=石烤箱
+
+tile.rack_wood.name=%1$s 工具架
+tile.food_box_basic.name=%1$s 食物箱
+tile.ammo_box_basic.name=%1$s 弹药箱
+tile.crate_basic.name=%1$s 创造
+tile.trough_wood.name=%1$s 槽
+attribute.box.capacity.name=Capacity: %1$s 库存
+attribute.fill.capacity.name=Capacity: %1$s
+attribute.fill=Fill x%1$s
+
+item.bedroll.name=床铺
+tile.bedroll.name=床铺
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/TABS/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+itemGroup.forgedtool=[MF] 锻造工具
+itemGroup.forgedweapon=[MF] 锻造武器
+itemGroup.forgedarmour=[MF] 锻造盔甲
+itemGroup.MFGadgets=[MF] 小工具
+itemGroup.MFUtil=[MF] 实用方块
+itemGroup.MFBows=[MF] 弓箭用具
+itemGroup.MFMaterials=[MF] 材料
+itemGroup.MFadvancedtool=[MF] 高级工具
+itemGroup.MFcrafttool=[MF] 合成工具
+itemGroup.MFore=[MF] 矿物
+itemGroup.MFfood=[MF] 食物
+itemGroup.MFOld=[MF] 原始物品
+itemGroup.MFdragonforged=[MF] 龙铸武器
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/FIRESTARTER/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.dryrocks.name=干燥的岩石 
+item.tinderbox.name=火药桶
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/BANDAGE/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.bandage_crude.name=粗糙的绷带
+item.bandage_wool.name=羊毛绷带
+item.bandage_tough.name=精良的绷带
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/TRAINING/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.training_sword.name=训练用剑
+item.training_waraxe.name=训练用战斧
+item.training_mace.name=训练用权杖
+item.training_spear.name=训练用长矛
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/LEATHER STUFF/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.hide_helmet.name=牛皮头盔
+item.hide_chest.name=牛皮胸甲
+item.hide_legs.name=牛皮护腿
+item.hide_boots.name=牛皮靴子
+
+item.roughleather_helmet.name=粗糙的皮革头盔
+item.roughleather_chest.name=粗糙的皮革胸甲
+item.roughleather_legs.name=粗糙的皮革护腿
+item.roughleather_boots.name=粗糙的皮革靴子
+
+item.strongleather_helmet.name=加固的皮革头盔
+item.strongleather_chest.name=加固的皮革胸甲
+item.strongleather_legs.name=加固的皮革护腿
+item.strongleather_boots.name=加固的皮革靴子
+
+item.studleather_helmet.name=镶钉头盔
+item.studleather_chest.name=镶钉胸甲
+item.studleather_legs.name=镶钉护腿
+item.studleather_boots.name=镶钉靴子
+
+item.padded_helmet.name=棉甲头盔
+item.padded_chest.name=棉甲胸甲
+item.padded_legs.name=棉甲护腿
+item.padded_boots.name=棉甲靴子
+
+item.padded_helmet.name=Padded Cap
+item.padded_chest.name=Gambeson
+item.padded_legs.name=Padded Leggings
+item.padded_boots.name=Padded Boots
+
+item.leatherapron.name=皮革铁匠服装
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/STONE STUFF/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.stone_pick.name=石镐
+item.stone_axe.name=石斧
+
+item.stone_hoe.name=石锄
+item.stone_spade.name=石铲
+
+item.stone_knife.name=石匕首
+item.stone_hammer.name=石锤
+item.stone_tongs.name=石钳
+item.bone_needle.name=骨针
+
+
+
+
+item.stone_sword.name=石剑
+item.stone_waraxe.name=石战斧
+item.stone_mace.name=石棍棒
+item.stone_spear.name=石矛
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+/STANDARD/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+languagecfg.tooltiptier=false
+//You can move the main tier to the tooltip if this is true，make sure to remove "%1$s " instnaces if you do this
+
+item.standard_pick.name=%1$s镐
+item.standard_axe.name=%1$s斧
+item.standard_spade.name=%1$s锹
+item.standard_hoe.name=%1$s锄
+
+item.standard_shears.name=%1$s剪刀
+item.standard_knife.name=%1$s匕首
+item.standard_needle.name=%1$s针
+item.standard_hammer.name=%1$s锤
+item.standard_hvyhammer.name=%1$s重锤
+item.standard_tongs.name=%1$s钳
+item.standard_saw.name=%1$s锯
+item.standard_spanner.name=%1$s扳手
+
+item.standard_dagger.name=%1$s短剑
+item.standard_sword.name=%1$s剑
+item.standard_mace.name=%1$s权杖
+item.standard_waraxe.name=%1$s战斧
+item.standard_spear.name=%1$s矛
+
+item.standard_katana.name=%1$s太刀
+item.standard_greatsword.name=%1$s阔剑
+item.standard_warhammer.name=%1$s战锤
+item.standard_battleaxe.name=%1$s双刃斧
+item.standard_halbeard.name=%1$s戟
+item.standard_lance.name=%1$s骑士枪
+
+item.standard_handpick.name=%1$s手镐
+item.standard_hvypick.name=%1$s重稿
+item.standard_trow.name=%1$s手锹
+item.standard_hvyshovel.name=沉重的 %1$s宽铲
+item.standard_scythe.name=%1$s镰刀
+item.standard_mattock.name=%1$s鹤嘴锄
+
+item.standard_scale_helmet.name=<鳞甲>%1$s头盔
+item.standard_scale_chest.name=<鳞甲>%1$s胸甲
+item.standard_scale_legs.name=<鳞甲>%1$s护腿
+item.standard_scale_boots.name=<鳞甲>%1$s靴子
+
+
+
+
+
+
+
+item.standard_chain_helmet.name=<锁子甲>%1$s头巾
+item.standard_chain_chest.name=<锁子甲>%1$s胸甲
+item.standard_chain_legs.name=<锁子甲>%1$s护腿
+item.standard_chain_boots.name=<锁子甲>%1$s靴子
+
+item.standard_splint_helmet.name=<藤甲>%1$s头盔
+item.standard_splint_chest.name=<藤甲>%1$s胸甲
+item.standard_splint_legs.name=<藤甲>%1$s护腿
+item.standard_splint_boots.name=<藤甲>%1$s靴子
+
+item.standard_plate_helmet.name=<板甲>%1$s头盔
+item.standard_plate_chest.name=<板甲>%1$s胸甲
+item.standard_plate_legs.name=<板甲>%1$s护腿
+item.standard_plate_boots.name=<板甲>%1$s靴子
+
+item.standard_bow.name=%1$s弓
+item.standard_arrow.name=%1$s箭
+item.standard_bolt.name=%1$s弩箭
+
+
+
+
+
+
+item.standard_mallet.name=%1$s槌
+item.standard_spoon.name=%1$s勺 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/DRAGONFORGE/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.dragonforged_dagger.name=<龙铸>%1$s短剑
+item.dragonforged_sword.name=<龙铸>%1$s剑
+item.dragonforged_mace.name=<龙铸>%1$s权杖
+item.dragonforged_waraxe.name=<龙铸>%1$s战斧
+item.dragonforged_spear.name=<龙铸>%1$s矛
+item.dragonforged_katana.name=<龙铸>%1$s太刀
+item.dragonforged_greatsword.name=<龙铸>%1$s阔剑
+item.dragonforged_warhammer.name=<龙铸>%1$s战锤
+item.dragonforged_battleaxe.name=<龙铸>%1$s双刃斧
+item.dragonforged_halbeard.name=<龙铸>%1$s戟
+item.dragonforged_lance.name=<龙铸>%1$s骑士枪
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/FOOD/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.berries.name=浆果
+item.berriesJuicy.name=多汁的浆果
+item.generic_meat_uncooked.name=一般的生肉
+item.generic_meat_cooked.name=一般的熟肉
+item.generic_meat_strip_uncooked.name=生肉片
+item.generic_meat_strip_cooked.name=熟肉片
+item.generic_meat_chunk_uncooked.name=生肉块
+item.generic_meat_chunk_cooked.name=熟肉块
+item.generic_meat_mince_uncooked.name=生肉末
+item.generic_meat_mince_cooked.name=熟肉末
+item.burnt_food.name=烧焦的食物
+item.burnt_pot.name=烧焦的锅
+item.burnt_cake.name=烧焦的蛋糕
+item.burnt_pie.name=烧焦的派
+
+tile.berries.name=浆果丛
+item.breadcrumbs.name=面包屑
+item.breadroll.name=面包卷
+item.breadslice.name=面包片
+item.horse_raw.name=生马肉
+item.horse_cooked.name=熟马肉
+item.wolf_raw.name=生狼排骨
+item.wolf_cooked.name=熟狼排骨
+item.mutton_raw.name=生羊肉
+item.mutton_cooked.name=熟羊肉
+item.spider_raw.name=生蜘蛛肉
+item.spider_cooked.name=熟蜘蛛肉
+
+item.bowl_water_salt.name=盐水
+item.salt.name=盐
+item.cake_tin.name=饼模
+item.pie_tin.name=馅饼盘
+item.pie_tray_uncooked.name=粘土馅饼盘
+item.flour.name=面粉
+item.sugarpot.name=糖罐
+item.bread_uncooked.name=未烤过的面包
+item.tea_leaf.name=茶叶
+item.spice_mild.name=淡味的香料
+item.guts.name=内脏
+
+item.raw_bread.name=面包面团
+item.dough.name=面团
+item.pastry.name=糕点
+item.stew.name=炖菜
+item.salad.name=沙拉
+item.oats.name=燕麦
+
+item.curds.name=奶酪
+item.cheese_pot.name=奶酪罐
+
+item.jerky.name=牛肉干
+item.cheese_roll.name=卷酪卷
+item.sweetroll.name=甜面包
+item.sandwitch.name=三明治
+
+tile.pie_meat.name=肉馅派
+tile.pie_apple.name=苹果派
+tile.pie_berry.name=浆果派
+tile.pie_shepards.name=马铃薯派
+
+item.meatpie_slice.name=肉馅派片
+item.pieslice_apple.name=苹果派片
+item.pieslice_berry.name=浆果派片
+item.pieslice_shepards.name=马铃薯派片
+
+item.chicken_roast.name=烤鸡肉
+item.pork_roast.name=烤猪肉
+item.beef_roast.name=烤牛肉
+item.mutton_roast.name=烤羊肉
+
+tile.cake_vanilla.name=蛋糕
+tile.cake_carrot.name=胡萝卜蛋糕
+tile.cake_chocolate.name=巧克力蛋糕
+tile.cake_bf.name=黑森林蛋糕
+
+item.cake_slice.name=蛋糕片
+item.carrotcake_slice.name=胡萝卜蛋糕片
+item.choccake_slice.name=巧克力蛋糕片
+item.bfcake_slice.name=黑森林蛋糕片
+
+item.coca_powder.name=可可粉
+item.chocolate.name=巧克力
+item.chocchips.name=巧克力豆
+item.eclair.name=泡芙
+item.eclair_raw.name=泡芙面团
+item.eclair_uniced.name=未冰冻的泡芙
+item.eclair_empty.name=未填充的泡芙
+item.saussage_cooked.name=腊肠
+item.saussage_raw.name=生腊肠
+tile.cheese.name=奶酪盘
+item.cheese_slice.name=奶酪
+item.sushi.name=寿司
+item.curry.name=咖喱
+item.pizza_basic.name=披萨
+item.sweetroll_raw.name=甜面包面团
+item.sweetroll_uniced.name=未加工的甜面包
+item.icing.name=糖霜 
+item.custard.name=蛋奶冻
+
+item.cake_raw.name=蛋糕面糊
+item.cake_simple_raw.name=简易蛋糕面糊
+item.cake_carrot_raw.name=胡萝卜蛋糕面糊
+item.cake_choc_raw.name=巧克力蛋糕面糊
+item.cake_bf_raw.name=黑森林蛋糕面糊
+
+item.cake_uniced.name=未冰冻的蛋糕
+item.cake_simple_uniced.name=未冰冻的简易蛋糕
+item.cake_carrot_uniced.name=未冰冻的胡萝卜蛋糕
+item.cake_choc_uniced.name=未冰冻的巧克力蛋糕
+item.cake_bf_uniced.name=未冰冻的黑森林蛋糕
+
+item.pie_meat_uncooked.name=未煮过的肉馅派
+item.pie_apple_uncooked.name=未煮过的苹果派
+item.pie_berry_uncooked.name=未煮过的浆果派
+item.pie_shepard_uncooked.name=未煮过的马铃薯派
+item.pie_pumpkin_uncooked.name=未煮过的南瓜派
+
+item.pie_meat_cooked.name=煮熟的肉馅派
+item.pie_apple_cooked.name=煮熟的苹果派
+item.pie_berry_cooked.name=煮熟的浆果派
+item.pie_shepard_cooked.name=煮熟的马铃薯派
+item.pie_pumpkin_cooked.name=煮熟的南瓜派
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/FOOD STATS/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+food.stat.list.name=进食时:
+food.stat.hunger.name=+%1$s 饱食度
+food.stat.staminaPlus.name=恢复%1$耐力
+food.stat.staminabuffHours.name=%2$s小时内增加%1$s耐力
+food.stat.staminabuffMinutes.name=%2$s分钟内增加%1$s耐力
+food.stat.staminabuffSeconds.name=%2$s秒内增加%1$s耐力
+food.stat.saturationMinutes.name=%1$s分钟内饱和
+food.stat.saturationSeconds.name=%1$s秒内饱和
+food.stat.saturation.name=饱和点: %1$s
+food.stat.staminabuffRegenMinutes.name=%2$s分钟内每秒恢复%1$s耐力
+food.stat.staminabuffRegenSeconds.name=%2$s秒内每秒恢复%1$s耐力
+food.stat.cure.poison=解毒
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/CONSTRUCTION/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+item.hinge.name=铰链
+item.commodity_plank_cut.name=切割的%1$s木材
+item.commodity_plank_pane.name=%1$s木窗
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/RPG/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rpg.levelup=你的%1$s已经升到了%2$s级
+rpg.required=需要 %1$s %2$s
+rpg.skillmod=技能修正: +
+
+skill.lowskill=你没有足够的技能 !
+skill.value=等级: %1$s
+
+skill.list.basic=基本技能
+skill.list.craft=合成技能
+skill.list.combat=战斗技能
+
+skill.artisanry.name=手艺
+skill.construction.name=建造
+skill.provisioning.name=食物
+skill.engineering.name=工程
+skill.combat.name=武器
+
+item.skillbook_artisanry.name=锻造的艺术
+item.skillbook_artisanry.desc=+%1$s 手艺
+item.skillbook_construction.name=木工技术
+item.skillbook_construction.desc=+%1$s 建造
+item.skillbook_provisioning.name=喂养一个村庄
+item.skillbook_provisioning.desc=+%1$s 食物
+item.skillbook_engineering.name=高级机械
+item.skillbook_engineering.desc=+%1$s 工程
+item.skillbook_combat.name=混合场战术
+item.skillbook_combat.desc=+%1$s 武器
+
+item.skillbook_dwarvern.name=矮人的知识
+item.skillbook_gnomish.name=侏儒的知识
+item.skillbook_artisanry2.name=上古工匠史
+item.skillbook_artisanry2.desc=手艺-MAX
+item.skillbook_construction2.name=建筑档案库
+item.skillbook_construction2.desc=建造-MAX
+item.skillbook_provisioning2.name=贸易历史册
+item.skillbook_provisioning2.desc=食物-MAX
+item.skillbook_engineering2.name=工程师词典
+item.skillbook_engineering2.desc=工程-MAX
+item.skillbook_combat2.name=战争日记
+item.skillbook_combat2.desc=武器-MAX
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/KNOWLEDGE INFORMATION/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+method.workbench=基础工作台
+method.furnace=冶炼厂
+method.bloomery=锻铁炉
+method.blastfurnace=鼓风炉
+method.anvil=砧
+method.carpenter=木匠台
+method.crucible=坩埚
+method.crucibleT2=耐火坩埚
+
+method.quern=磨盘
+
+
+
+gui.purchase=购买
+knowledge.guiSubtitle=这是GUI
+knowledge.basicstructure=基本结构
+knowledge.example=范例
+knowledge.rightclickspanner=右键扳手
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/KNOWLEDGE TEXT/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+knowledge.title=
+knowledge.title.desc=
+knowledge.title.1=
+
+knowledge.minotaurs=牛头人
+knowledge.minotaurs.desc=恐怖的生物
+knowledge.minotaurs.1=很少有生物能够承受牛头人的力量和愤怒.据传说,牛头人是人和牛的结合体.因此牛头人是杂食生物,同时有着暴躁的脾气.
+knowledge.minotaurs.2=牛头人是强大到足以在一秒之内将人撕成碎片,并能够迅速愈合伤口.但是幸运的是,可以用你的智慧打败这些四肢发达头脑简单的家伙!
+knowledge.mob.minotaur.name=棕毛牛头人
+knowledge.minotaur.1=棕毛牛头人是一种很常见的生物,他们用强大的力量证明自己是一个强大的对手.
+knowledge.mob.minotaur_frost.name=冰霜牛头人
+knowledge.minotaur_frost.1=冰霜牛头人生活在寒冷的地区,它们的毛皮比毛棕色牛头人还要温暖.拥有白色毛皮的冰霜牛头人在雪地里很难被看到,因此它们善于偷袭.
+knowledge.mob.minotaur_dread.name=噩梦牛头人
+knowledge.minotaur_dread.1=没有多少人知道这些所谓的噩梦牛头人.恐惧牛头人挥舞铁制武器释放它们的愤怒.奇怪的是,噩梦牛头人看起来比其他种类的牛头人更有纪律性...
+
+knowledge.dragons=龙
+knowledge.dragons.desc=凌驾于死亡之上的
+knowledge.dragons.1=作为龙它们会有自豪感,同时它们是具有破坏性的爬行动物以及善于追踪猎物.龙在世界上有许多品种,但是不同龙类的进攻能力大大不同,你要留意天空,避免龙的偷袭.
+knowledge.dragons.2=虽然它们年幼时容易被杀死,但年老的龙是一只强大的怪物.这些爬行动物的皮肤是如此强大以至于大多数武器是对它无效的.特殊龙铸武器可以穿透他们的坚硬的龙鳞.
+knowledge.mob.red_dragon.name=红龙
+knowledge.red_dragon.1=最常见的龙类,红龙拥有喷火的能力,因此它们喜欢焚烧一切建筑物.比起喷火,红龙更喜欢和敌人肉搏.
+knowledge.mob.blue_dragon.name=冰霜巨龙
+knowledge.blue_dragon.1=冰霜巨龙生活在寒冷的地区,冰霜巨龙呼出刺骨的寒风可以冻结它们的敌人.冰霜巨龙并具有破坏性,但它仍然是危险的.
+knowledge.mob.green_dragon.name=绿沼龙
+knowledge.green_dragon.1=绿沼龙生活在沼泽地中,并且它们有着恶心的能力,所到之处都会被腐蚀.这些绿沼龙能够在攻击敌人时释放强酸,腐蚀装备.更多时候它们喜欢飞翔在空中,将白云腐蚀成酸云然后再飞回来.
+
+knowledge.gettingStarted=新手指南
+knowledge.gettingStarted.desc=初识世界
+knowledge.gettingStarted.1=一切准备就绪: 去破坏一些石头吧... 别当真hehehehe，徒手破石 (修改了原版机制) 从此再也没有了. 但是你还可以用手破坏树叶、藤蔓和原木.手里拿着锋利的石头打树叶可以得到藤蔓.
+knowledge.gettingStarted.2=制作工具的过程中需要你的手动操作. 第一:按照指示(给铁砧提供热源).然后选择你想要的工具并且正确地排序工具(如拳,刀,锤等都需要这样操作).然后点击制作键.
+knowledge.gettingStarted.hcc=$h困难合成-$r^困难合成默认是开启的. 常规工具将变的无用建议你制作原始工具. 在工艺部分可以查看所有的工具合成.
+knowledge.gettingStarted.hcc2=当你用MineFantasy（我的幻想）开始生存: 在地表生存这个阶段时,建议你寻找洞穴居住,以及收集木材、煤、铜、石头等所需的资源.有了这些资源,你就可以开始你的世界啦,接下来你需要准备的三个主要过程.
+knowledge.gettingStarted.fire=$h火塘-$r^在你开始工作之前，你需要两个火塘，一个用来提供火焰，另一个用来做饭（如果你有肉）。^右键添加燃料和木材，然后使用打火石点火。
+knowledge.gettingStarted.food=也可以将其中一个烹饪板放在火上.右键将食物放上去烤制
+knowledge.gettingStarted.carpenter=$h木匠工作台-$r^木匠工作台是一个用于选择合成的基础工作台，不同的合成需要不同的工具。在工具部分查看更多的工具信息
+knowledge.gettingStarted.tanning=$h制革-$r^目前为止你可能收集了很多兽皮但却无法使用. 刮兽皮是一种简单的制作皮革的方法^首先，做一个破旧的制革架和一把小刀. 这些工具的质量非常差但升级还是很实用的。
+knowledge.gettingStarted.forging=$h锻造-$r^锻造是制作工具的主要方法. 几乎每一个工具和金属物体都是通过这一过程. 首先你需要做一个石头熔炉，砧和一些工具. 将砧放在靠近石头熔炉和水的地方. 在工艺部分你可以查看工具的合成. 
+
+
+knowledge.gettingStarted.forging.2=穿上围裙，然后点火 (干燥的岩石)!
+knowledge.gettingStarted.3=现在你需要一些皮革条来做工具。收集2个铜，2个木板和1个皮革然后做把铜剪刀。
+knowledge.gettingStarted.4=拿起你的剪刀，然后把皮革放在木匠工作台或制革架上右键切割制成皮革条。
+knowledge.gettingStarted.5=到了这步，你应该有皮革，铜锭，木板和皮革条了吧。是时候升级下你的石锤子了。
+knowledge.gettingStarted.6=随着锻造设备的建立，你现在可以打造铜制工具了. 查看"锻造工具"可以找到些铜制工具的替代品.^建议使用钳子来处理加热过的物品，拿着钳子右键锻造厂/砧即可。
+knowledge.gettingStarted.upgrade=$h升级-$r^渐渐的基础的铜已经满足不了你了.，研究手册和研究工作台可以解锁新的合成.^首先，你需要一个研究工作台。
+
+
+knowledge.gettingStarted.7=在研究工作台中你可以对研究卷轴进行研究. 嗯，首先你需要一个研究卷轴.^打开你的研究手册，有一堆研究项目用绿色标识，以工艺部分的"轻甲" 为例，它没有如何.
+knowledge.gettingStarted.8=将购买研究得到的卷轴放在研究工作台上. 进度条会自己慢慢的增长，你可以敲击它来加快研究速度 (靠近书架速度更快). 完成后，右键新的卷轴即可解锁。（你可以左右键一起点，不过点太快进度条是会倒退的）
+knowledge.gettingStarted.9=并不是所有的研究都那么简单，有些需要花很多时间不过你可以制作一个知识护身符来加速研究. 大多数研究需要技能，技能可以在研究手册的左侧查看，使用技能可以增加技能的等级。
+knowledge.gettingStarted.10=很快你会需要粉，无论是烹饪，工程或着手艺。大多数粉需要用手推磨和陶罐。(你可以左键打一下手推磨或者右键手推磨的上方)
+knowledge.gettingStarted.11=现在尝试下 "锻造青铜" 吧，你需要 5 "手艺"解锁研究，不过坩埚默认是已研究的无需解锁. 合成工具，武器，护甲和一些商品能提升你的手艺等级.^研究完"锻造青铜"后，升级你的工具然后向着下一个目标前进.
+knowledge.gettingStarted.12=$h回收站-$r^当你找到了些对自己无用的资源和垃圾时; 做个回收站吧.^这东西能便捷的检测物品的构成。
+knowledge.gettingStarted.13=使用方式: 在地上放一个回收站然后往它上面丢东西，之后再右键下方块 (只有原版，和我的幻想的物品可以回收).
+knowledge.gettingStarted.14=基本的东西已经教给你了。剩下的就看你的造化了233...
+knowledge.dust=磨碎粉末
+knowledge.dust.desc=粉末制作方法
+knowledge.dust.1=你能用手抓出一把粉末，但没法控制多少，以及如何保持它的量. 陶罐能装填矿粉和其他用途的粉末，大多数粉末需要用手推模制作，只有极少的合成需要其他工具.。这里有一些列子:
+knowledge.dust.quern=在使用手推磨时：中间需要放入所要磨的物品,顶部放上调整用的物品，然后再点击顶部，就可以制作出你想要的污粉了（误）
+knowledge.dust.icing=一些食物的基础配方 (比如冰淇凌) 需要把各种材料放进陶罐里用勺子混合.
+knowledge.research=研究手册
+knowledge.research.desc=保持研究
+knowledge.research.1=研究手册可以解锁成就,同时回答你的 "我应该怎么做!". 在这本研究手册上你可以了解关于这个mod的各个内容和你应该做什么以及如何获得所需的物品.^但是很多内容是不可以查看的,需要你来解锁!
+knowledge.research.1=研究手册已解锁的项目能回答你"我是谁，我在哪，我该干啥，谁tm在打我". 在这本研究手册上你可以了解关于这个mod的各个内容，包括它们的合成以及获得方式.^但是很多内容是不可查看的,需要解锁!
+
+
+knowledge.research.2=如果图标是绿色的：代表它需要解锁:单击它查看需求，收集这些物品后点击“购买”解锁。然后：你需要把它放在$hResearch Table$r来进行研究。这需要些时间，但对它点击能加快他的研究进度。
+knowledge.research.3=研究工作台用来处理卷轴. 当你选择一个研究进行时，你必须花些时间弄明白它. 把研究卷轴放在研究工作台的插槽上他会开始工作.这需要很长时间,但你可以电吉他来加开速度... 慢慢地.（推荐使用连点器，连点器的频率要调的低一些）
+knowledge.research.4=把一本书放在木匠工作台上面可以重新制作这本书
+knowledge.carpenter=木匠工作台
+knowledge.carpenter.desc=简单的制作
+knowledge.carpenter.1=木匠工作台主要用于木材相关的配方，必须得早早的做出来。这台工作台可以使用各种工具，如麒麟臂，锤子，和小刀等等。合成需要放好物品，再用指定的工具缓慢地单击工作台。（工作台进度条左边是需要的工具，工具是分等级的，别老在砧，工作台上面瞎几把乱挥会扣耐久的！）
+knowledge.salvage=回收站
+knowledge.salvage.desc=只能回收
+knowledge.salvage.1=在恶劣的环境中作为一个囤积者也许有些优势，但那些不用的设备和劣质的工具真心没什么卵用.^回收站能从合成物品中回收原料。（仅限原版和MF）
+knowledge.salvage.2=使用方式: 放好回收站然后把要回收的东西扔在上面，再右键回收站。 一定几率恢复所有材料. 低耐久的物品恢复率较低.
+
+
+knowledge.salvage.3=如果你用锤子，回复材料的几率更大.^锯子也很有效.
+knowledge.talisman=知识护身符
+knowledge.talisman.desc=简单的阅读
+knowledge.talisman.1=找出事物工作的要点是困难的。通常：使用研究工作台需要花费大量的时间和精力才获得你想要的东西。在右键工作台时护身符可以加快进度。翻译：找出事物工作的要点是困难的。通常：使用研究工作台需要花费大量的时间和精力才获得你想要的东西。在右键工作台时护身符可以加快进度。
+knowledge.talisman.2=大型知识护身符十分罕见且用处不大.他和小型知识护身符一样，不过能无限使用。用它做成的书可以MAX任何技能。
+knowledge.commodities=商品
+knowledge.commodities.desc=有用的物品
+knowledge.commodities.1=商品都是些基本物品，但并不能称他们为垃圾.^^换句话说: 这些物品可以很好的运用在合成上，所以推荐你多储存些。
+knowledge.commodities.plank=木板是最好最可靠的木制方块. 且应用范围很广.
+knowledge.commodities.refinedplank=一些木材可以用一种简单的混合物进行精炼，表面硬化处理。精炼的木材将被用于更高级的作品。只有1级木板可以精炼。
+knowledge.commodities.flux=溶剂通常用于精炼金属. 一般用鼓风炉精炼锭. 强助熔剂用于高级合金.
+knowledge.commodities.hunks=对于那些较小的作品，可以用片. 你可以把锭做成片，也可以做回锭.
+knowledge.commodities.nail=钉子是木工用的基本物品。它们可以由铜、锡、铜、铁或钢制成。（这不影响质量，只影响产量）
+knowledge.commodities.rivet=柳钉和钉子相似，它们都是用于金属加工. 可以用铜、锡、铜、铁或钢制成。（这不影响质量，只影响产量）
+knowledge.commodities.leatherstrip=皮革条主要用在工具制作上.
+knowledge.commodities.thread=线主要用于缝纫合成。线可以合成绳子.
+knowledge.commodities.bucket=桶可以由金属锡成，金属等级越高做的越多.
+
+
+knowledge.plants=植物生成
+knowledge.plants.desc=有机资源
+knowledge.plants.1=地表上最常见的是各种各样的树和植物。^这些在地表上发现的植物，可以提供食物和材料.
+knowledge.plants.2=不同的树木提供不同的木材，木材之间也有差别的. 这是你能发现的树木列表.
+knowledge.yew.1=紫杉树是一种温和地区中的罕见树木. 紫衫弓就是用这种最有力的品种制成的.
+knowledge.ironbark.1=铁树比紫衫树更常见. 铁树可以在炎热和干燥地区以及森林中找到.
+knowledge.ebony.1=乌木树是巨大的，罕见的。可以在温和地区找到，提供非常强大的木材。。^乌木树是最强的可用木材。
+knowledge.berry=浆果
+knowledge.berry.desc=绿色无农药有机物（误）
+knowledge.berry.1=浆果生成在温度和降雨量正确的地区.^多汁的（紫色）浆果虽然罕见，但能解除DEBUFF。
+knowledge.ores=矿物生成
+knowledge.ores.desc=地下资源
+knowledge.ores.1=在这个世界矿石的生成范围比较小. 你可以把矿石熔炼成锭或者其他东西
+knowledge.ores.copper=铜矿在48-96层生成且十分常见. 它可以很轻松的冶炼成锭，并制成工具.^铜矿可以和锡制成青铜
+knowledge.ores.tin=锡有铜的一半生成率并都在同一层生成（48-96）。^锡可以冶炼成锭并和铜制成青铜。
+knowledge.ores.silver=银和金可以在同一层生成 <32层. 它在前期用处不大，但后期会有很多地方需要它.
+knowledge.ores.wolframite=钨是一种罕见的物质，主要用于高新技术工程. 它在< 16层生成.
+knowledge.ores.mythic=关于"虚构矿"的信息很少，它十分罕见且只可以在基岩附近找到. 这种奇怪的矿石似乎会发出刺痛的声音，原因未知...
+knowledge.ores.2=矿物质也会在主世界生成，不同于矿石: 它们不能熔炼成锭，但有其他用途
+knowledge.minerals.clay=和沙子一样，粘土可以在泥土中找到. 含粘土的泥土可以在草下面找到，草不能在它上面生长，所以它可以很容易在山上找到。水里也有。
+knowledge.minerals.kaolinite=高岭石有一个相当特殊的用途. 混合粘土: 这种矿物质可以增强砖块的强度.^他可以在接近地面的48-72层发现不过有些罕见。
+knowledge.minerals.limestone=一个溶剂的常见来源。石灰岩会大片大片的在全世界生成。
+knowledge.minerals.borax=这是一个比较罕见的物质——硼砂是强助熔剂的最佳来源：这是高级合金所需要。^它一般在48-96层生成但很难发现。
+knowledge.minerals.nitre=硝石矿生成在16-64层的一些洞穴壁层上. 硝石用来制造炸药。.
+knowledge.minerals.sulfur=硫在地下深处小于16层的岩浆附近生成。它可以用来制造炸药is 
+knowledge.chimney=烟与烟囱
+knowledge.chimney.desc=什么是温室气体？
+knowledge.chimney.1=傻子都知道燃料燃烧时会产生厌恶.你还得明白，呼吸烟雾是不明智的.^但你读过这个后就应该明白要用类似管道的东西抽取烟雾.^不管怎样: 烟囱可以把
+knowledge.chimney.2=烟雾排到天空从而远离你宝贵的空气！留给几个世纪后的人抱怨吧。
+knowledge.chimney.3=烟囱提取器也可以运用在其他设备上(主要是锻造厂和坩埚)间接吸取烟雾.^“间接”是意味着与设备相邻1格的地方。
+
+knowledge.tanning=制革
+knowledge.tanning.desc=动物尸体加工
+knowledge.tanning.1=皮革是有用的资源。几乎所有工具、武器或盔甲用到了皮革。制革是清理生皮为有用物品的简易方法。要开始：你需要制革架。（或者一个破旧的制革架）
+knowledge.tanning.2=你需要先清理兽皮. 拿着兽皮右键水或者把溶剂和兽皮放在合成台上. 清理完成后; 右键“制革架放置皮革. 然后再用小刀右键. 用破旧的制革架会有十分之一的几率会破坏掉.
+knowledge.tanning.3=一个不会损坏的制革架，推荐当它们不算太贵时合成这些。
+
+knowledge.stamina=耐力机制
+knowledge.stamina.desc=保持健康
+knowledge.stamina.1=你不能一直运动和挖矿. 并且需要时刻保持耐力.^耐力(屏幕右下方的绿色条) 会随着你的各种动作来衰变. 它的回复速度受装备和物品影响. MF食物可以恢复耐力
+knowledge.stamina.2=甜食可以增加耐力回复 . 你需要考虑较重的物品对你的影响和他们是否适合你的游戏风格。
+翻译：补充饱食度和甜的食物可以给再生。它是明智的考虑一些较重的项目的影响，以及如何他们可能适合你的游戏风格。
+
+
+knowledge.combat=战斗机制
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.combat.desc=杀死骷髅的方法不止一种
+knowledge.combat.1=你可能已经注意到了，怪物不再满世界的瞎几把乱浪了. 战斗机制已被修改并加入了更复杂的战斗技巧
+knowledge.combat.2=不仅如此,有武器的僵尸比其他僵尸更有威胁，因为他们能格挡，重击，以及其他能力.
+knowledge.parry.info=$h招架和格挡$r^当你右键武器即可格挡，简单吧? 现在: 格挡是最有用的. 当你成功格挡了攻击，就会减少这次攻击所造成的伤害，有刀口的带柄武器的是最好的
+knowledge.parry.info2=(比如斧子和钝击武器) 命中后会直接造成基础伤害.^建议格挡而不是尝试直接被砍，这个技巧会拯救你的生命.^格挡时正面受到的攻击会减少伤害。
+knowledge.advparry.info=$h招架能力$r^当你招架成功: 如果你按着shift键，你会走向之前攻击你的人，用你的方式扔了他们. 这很消耗耐力但运用的好的话，会改变战场的局势. 你也可以跳着的是这样做.
+knowledge.poweratt.info=$h重击$r^当你坠落时按着潜心和攻击，你会进行一次重击. 重击小号耐力，但他成功的话会造成双倍伤害并无视格挡. 如果在重击之前攻击可能会被打断.
+knowledge.dodge.info=$h闪避$r^在很多情况下，最好避免被攻击到. 当你在格挡时往两边或后面跳跃，会快速飞跃. 这消耗耐力切无法在外骨骼装甲上使用.
+翻译：在很多情况下，最好是避免撞到一起。如果你跳到两侧或背部，而阻挡，你会迅速飞跃。这是使用耐力，不能在外骨骼齿轮甲上使用。
+knowledge.armour.info=$h盔甲选择$r^有三种主要类型的盔甲：轻型、中型和重型。如果你比较依靠回避和技巧，使用轻甲，如果你想要更多的保护，使用重型，轻重混搭，使用中型。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.blade.info=
+knowledge.fastblade.info=
+knowledge.axe.info=
+knowledge.blunt.info=
+knowledge.polearms.info=
+
+knowledge.smeltCopper=锻造铜
+knowledge.smeltCopper.desc=等级 %1$s，常用材料
+knowledge.smeltCopper.1=学习锻造金属是一个漫长而又艰难的过程.铜是一种容易获得且无任何风险的材料.^然而,它是一块垃圾,因为无法制造高级工具,重型武器或重型盔甲!
+
+
+
+
+knowledge.smeltBronze=锻造青铜
+
+knowledge.smeltBronze.desc=等级 %1$s，常用材料
+knowledge.smeltBronze.1=通过混合少量的锡和铜,你就可以锻造青铜.这个合金(青铜)远优于铜和锡,可以制作更高级的物品.^你现在可以制作青铜工具了.
+
+
+knowledge.smeltIron=锻造铁
+knowledge.smeltIron.desc=等级 %1$s，常用材料
+knowledge.smeltIron.1=铁是迄今为止最常见的矿石，你可以很容易的找到并锻造它.铁制工具都很平衡,且性能优于铜.^你现在可以制作铁工具了.
+
+
+knowledge.smeltPig=生铁
+knowledge.smeltPig.desc=准备铁
+knowledge.smeltPig.1=天然铁充满了杂质和缺损，适当的精炼是创造高级合金的关键。可以使用高炉生产生铁.^生铁用于制造钢。
+
+
+
+knowledge.smeltSteel=锻造钢
+knowledge.smeltSteel.desc=等级 %1$s，常用材料
+knowledge.smeltSteel.1=现在你需要制作一个高炉并使用它。这种材料强于铁但十分昂贵.^钢可以用生铁在砧上锻造而成(智障的方法) 或者想办法做个耐火坩埚然后把生铁扔进去(简单的方法).
+
+
+
+
+knowledge.smeltEncrusted=锻造镶钻
+
+knowledge.smeltEncrusted.desc=等级 %1$s特殊材料
+knowledge.smeltEncrusted.1=现在你可以将钻石的力量和钢的可加工性结合在一起! 镶钻工具比钢工具更强更锋利并且能挖掘更强的方块 (比如黑曜石).^去吧: 炫耀你那闪闪发亮的新工具
+
+
+knowledge.smeltObsidian=锻造黑曜石钢
+
+knowledge.smeltObsidian.desc=等级 %1$s，特殊材料
+knowledge.smeltObsidian.1=天然黑曜石的耐久和硬度是不容小觑的，但他没有可加工性. 你可以通过混合黑曜石和钢制造出一个可加工性且强大的物质.
+knowledge.smeltBlackSteel=锻造黑钢
+knowledge.smeltBlackSteel.desc=等级 %1$s，常用材料
+knowledge.smeltBlackSteel.1=现在有可能将钢重铸成一个远优于合金的东西. 这个工程需要低级的材料中最高的质量去创造一个无比强大的金属.
+
+
+knowledge.smeltDragonforge=锻造龙铸武器
+
+knowledge.smeltDragonforge.desc=锻造得好
+knowledge.smeltDragonforge.1=龙是棘手的生物，猎杀它们需要准备与经验。通过你的努力，就有可能用它们自己的力量对抗它们，龙铸武器将打击并破坏龙鳞从而更有效的给予他巨大的打击。
+knowledge.smeltDragonforge.2=要制作龙铸武器：先做普通的近战武器。就在完成前：扔（右击）一颗龙心到附近的熔炉（温度要够，才能放下去），然后迅速完成合成。如果一切顺利你会得到龙铸物品（龙心不易获得。）
+
+
+knowledge.smeltBlueSteel=锻造蓝钢
+
+knowledge.smeltBlueSteel.desc=等级 %1$s，常用材料
+knowledge.smeltBlueSteel.1=你现在能锻造蓝钢。这种金属与劣质金属相比极轻，制作限制耐力衰减的工具与盔甲的绝佳材料。
+
+
+knowledge.smeltRedSteel=锻造赤钢
+knowledge.smeltRedSteel.desc=等级 %1$s，常用材料
+knowledge.smeltRedSteel.1=你现在可以制作赤钢了. 这种金属比其他材料的重量要大得多，而且是用它制成的工具和盔甲也很累，但是很坚硬而且远优于这个等级的其他材料.
+
+
+
+
+
+knowledge.smeltMithril=锻造秘银
+
+knowledge.smeltMithril.desc=等级 %1$s，特殊材料
+knowledge.smeltMithril.1=奇怪的虚构矿：取决于如何提炼以及金属加工的特性。通过混合轻元素与虚构矿：加点银，来制作秘银。^ 秘银是一种非常轻的材料，比蓝钢更轻。
+
+
+
+knowledge.smeltAdamantium=锻造艾达曼合金
+
+knowledge.smeltAdamantium.desc=等级 %1$s，特殊材料
+knowledge.smeltAdamantium.1=翻译：奇怪的虚构矿：取决于如何提炼以及金属加工的特性。通过混合重元素与虚构矿：加点金，来制作艾达曼合金 。^艾达曼合金是一种非常重的材料，比赤钢更重。
+
+knowledge.smeltMaster=虚构的大师级
+knowledge.smeltMaster.desc=下一个等级
+knowledge.smeltMaster.1=神话级材料的生产是一回事，但是正确的生产是另外一件事. 你可能能够创造神话矿的基础材料艾达曼合金和秘银，但是这些材料很难被同一种力量匹配到这种矿物中.
+
+
+knowledge.smeltMaster.2=极品让你能够创建强大的以神话材料为基础新工具而且能够进一步的加强他们的力量.^制作极品并不是那么简单. 首先- 在铁砧上很难取得相等的米数.
+knowledge.smeltMaster.3=不仅仅是那样：但是如果你有轻微的失误物品的质量将会变得低劣. 但是如果你做的正确 极品物品将变得坚不可摧所以我们建议你清楚你正在做什么!
+
+
+
+
+
+knowledge.smeltIgnotumite=锻造依格洛特
+knowledge.smeltIgnotumite.desc=等级 %1$s，主要材料
+knowledge.smeltIgnotumite.1=通过制作艾达曼合金可以制造极其强大的工具但并没有达到它的全部功能；你知道，神话原矿的结构是由许多流动的元素构成，分离这些是解锁这些潜藏于艾达曼合金中的功能的关键，解锁后的金属被称为依格洛特合金.
+
+
+
+knowledge.smeltMithium=锻造锂
+
+knowledge.smeltMithium.desc=等级 %1$s，主要材料
+knowledge.smeltMithium.1=锂只能在最纯净的秘银的最深处发现。这个材料拥有一个从未被发现过的结构，它无比的轻。它的轻来自于它的核心，这似乎是一个空壳，被弯曲而不损坏，在里面似乎有一种能量在保持着金属的固态...
+
+knowledge.smeltEnder=锻造末影锭
+knowledge.smeltEnderforge.desc=等级 %1$s，主要材料
+knowledge.smeltEnderforge.1=总是有一些关于末地生物的奇怪现象...末地的力量在艾达曼合金和秘银中深深地贮存了魔法能量，并集中为末影珍珠.
+
+
+
+
+knowledge.masterHaft=所有的极品材料使用特殊的杆而不是木板。对于工具和武器： 是用这些来代替木板.
+
+
+
+knowledge.masterArmour=对于任何的盔甲，你需要分别制作mail和plate物品 ，装配保持不变.
+
+
+
+
+knowledge.coalflux=煤粉流量
+
+
+knowledge.coalflux.desc=保守点
+
+
+
+knowledge.coalflux.1=现在很确定的是当一艘满载着矿物的船驶入你拥有的这成堆的煤并不会存在很久。 冶炼设备使用了这么多然后以极快的速度消耗你的供给！^磁通和煤矿的混合可以在炼铁厂代替煤，虽然它并不是燃料。
+
+
+
+
+
+knowledge.bigfurn=熔炉
+knowledge.bigfurn.desc=大量生产
+knowledge.bigfurn.1=在炼铁厂手工冶炼矿石是一个缓慢而乏味的过程. 熔炉可以在同一时间内融化四种物品而且能够很简单的通过小小的努力就得到锻造过的物品.^熔炉是有两个主要零件的多方块结构.
+
+
+
+
+knowledge.bigfurn.heater=加热方块需要燃料去为熔炉提供能量。他们要被放置在熔炉的底部而且必须要被耐火砖三面环绕。^熔炉加热方块只接受以forge为基础的燃料(煤、木炭等)
+
+
+
+
+
+
+knowledge.bigfurn.top=熔炉是直接在加热器上被放置的,他们也必须被耐火砖三面环绕并且在顶部有耐火砖.
+knowledge.bigfurn.structure=这个结构可以让多个熔炉同时工作，两面的侧壁和一个后墙可以支持许多连接的炉燃烧.
+
+
+
+knowledge.blastfurn=冶炼
+knowledge.blastfurn.desc=冶炼强化
+knowledge.blastfurn.1=总会有一个当你觉得单纯的融化锭不会胜任这项工作的时间。在这种情况下:你会需要一个高炉.^高炉是一个既大又贵的工程. 然而，任何的熔炉可以被建到几乎任何高度而且在同一时间内融化多种物品.
+
+knowledge.blastfurn.2=当然在制作熔炉前:你需要在他们周围做一个像样的外壳。 为此，有耐火砖。^耐火砖能够维持高炉的极高的温度而且是制作它的材料。
+#Firebrick Recipes
+
+
+knowledge.blastfurn.3=熔炉由两个方块组成：加热方块和炉室。制作一个加热器和炉室块(上线16个)。放的炉室越多，能够融化东西的就越多。
+
+
+#Furnace Recipes
+
+
+
+
+
+
+
+knowledge.blastfurn.4=现在你拥有了耐火砖、一个加热器和一些炉室：你现在可以装配熔炉了.^如何开始:将一个加热器放置在地上。^如果一个熔炉在加热器下面:它会吸收热量.^确保在四面留下足够的空间(大约4个方块) .
+
+
+knowledge.blastfurn.5=在加热器的四角应有耐火砖。注意：不要覆盖它的边上.^当这些都准备好，在加热器上方堆起木杆，然后在它周围堆起耐火砖。 记得要让顶部保持空出(或放置一个烟囱).
+
+
+
+
+
+
+#Structure
+knowledge.blastfurn.6=使用高炉是相当简单，但确实消耗了大量的燃料。^以在最底端放置输入物品 （例如准备好的铁) 然后在最顶端的炉室的顶部放置煤来开始。 (建议使用一个小烟囱已收集烟雾）
+
+
+
+knowledge.blastfurn.7=the block). 当一切准备好后物品会下降一个炉室。在那之后： 在底部放一些燃料，燃料能够融化许多物品所以你最好明智的选择你需要多少。在完成后： 所有的炉室会给予一个物品， 然后加热器会散出热量。
+knowledge.blastfurn.8=喷射而出的火焰。^只要注意不堵塞这些火苗熔炉就不会炸掉。 然后保持可燃物远离这里！
+knowledge.blastfurn.hcc=$h在冒险模式的制作-$r^当你在冒险模式下制作时：高度推荐在下面放置一个坩埚。这样你才不会毁掉金属锭!
+
+
+#Prepared Iron
+
+knowledge.blastfurn.9=制备的铁矿石是用来制造生铁的。^生铁可以变成钢。^你可以用强磁通量去双倍生产，但是它很珍贵所以你应该明智的使用它.
+
+
+knowledge.bloomery=锻铁炉
+knowledge.bloomery.desc=初级金属冶炼厂
+knowledge.bloomery.1=从岩石中获取里面镶嵌的材料并不容易。金属冶炼厂可以将矿石冶炼成金属锭.
+knowledge.bloomery.2=使用方法:在方块中放入相等数量的煤和原矿然后用一个点火器右键。如果一切正常会开始熔炼矿物，物品越多工作速度越慢，^冶炼厂必须被放置在户外，无遮拦的对着天空来工作，如果没有符合条件烟囱也不会工作。
+knowledge.bloomery.3=整个木杆将在这个过程中被融化，当结束时顶端会脱落然后发光。 用锤子点击以完成这个过程，保持到所有的金属锭都被收集。当你收集金属锭的时候要确定拿的是一个空夹子。
+
+knowledge.crucible=坩埚与合金
+knowledge.crucible.desc=混合金属
+knowledge.crucible.1=到目前为止，你只能依靠一种金属或另一种金属来满足你的需要。 对于这种情况:坩埚便被发明。^坩埚是为合金而设计，你可以在坩埚中混合多种金属来获得更好的材料。
+knowledge.crucible.2=要使坩埚工作，他们在底部需要一个热源(例如$hForge$r)， 岩浆也可以但是它的效率很低.^坩埚的合成表是任意的而且没有范围。
+knowledge.crucible.3=例如： 三个铜和一个铁和一个锡。 这意味着你可以把铜放到两个槽中，然后锡在另一个，然后每一个都会提供3个铜. 但是你可以放4个和2个去得到6个，以此类推...
+knowledge.crucible.hcc=$h冒险模式下的制作-$r^但是对于在冒险模式下: 物品不能从坩埚中取回。你需要制作一个金属注模，右击来一次一次的取回金属锭， 然后将它们放在水中来冷却。^另外： 如果你打碎了坩埚，物品会丢失！
+knowledge.crucible2=高级合金
+knowledge.crucible2.desc=更多合金...
+knowledge.crucible2.1=耐火钻在他们维持高温的能力已经被证明是有用的。除去它们制作一个坩埚意味着冶炼的热量更加稳定而且能够用于以后材料的制作。^粘土坩埚能够创造更好的合金.
+knowledge.crucible2.blocks=二级坩埚必须由火砖围住.
+
+
+knowledge.apron=铁匠的围裙
+knowledge.apron.desc=护身服
+knowledge.apron.1=熔铁炉会变热，然后可以将金属放入来处理。 当使用一个熔铁炉时建议穿上其中的一件。铁匠的围裙包括衬衫、围裙以及手套。 这是用于锻造和处理金属锭。如果没有这些东西的话在你背包中的物品会烧伤你。
+
+
+knowledge.anvil=砧座
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.anvil.desc=金属加工
+knowledge.anvil.1=并不是说，工作台是过时的或别的，但有许多更好的方法来制作物品。 砧座是制作任何金属制成的东西的最常用的物品。^这个过程包括用熔铁炉融化矿物， 然后在砧座上用锤子来工作。
+
+
+
+#Recipe
+knowledge.anvil.2=制作砧板是件简单的事而且它可以在熔炉中回收。^将砧座放置在地上， 一个接近水和熔铁炉的地方。在砧板的一侧右击它或者不用锤子右击它能打开界面。
+
+
+
+#Gui
+knowledge.anvil.3=制作物品可能会很复杂，它有两个步骤。^首先一些物品(大部分是金属锭或者金属片) 需要在 $hForge$r中加热。如果一个物品可以被加热，那么它需要被加热。^下一步是合成表本身： 以摆放好为开始。
+knowledge.anvil.4=grid$h[3]$r (就像你所习惯的那样)， 然后： 装备一个合适的斧头 (普通或沉重是根据合成表决定的)。 锤子应当在适当的等级而砧板的等级决定物品的质量， 等级会在标题处显现$h[1]$r.^单击使锤子敲击砧板。进度条$h[2]$r 会开始填充， 当完成时：结果
+knowledge.anvil.5=会在输出槽出现$h[4]$r。^有些物品会很热，你可以在水面上右键他们或炼药锅(潜行点击)， 来冷却它们。拿着夹子右键铁砧如果你想用这个方法来取物品。
+knowledge.anvil.tongs=持有热的物品会灼伤你，所以当你需要从熔铁炉中取出什么东西时， 拿着钳子右键以取出， 然后再对砧板右键以放置。
+knowledge.anvil.6=在制作时，保持质量条的轨迹。它的目的是保持标记远离边界。如果它掉到任何一边都会破坏配方。但是，当你制作可破坏的物品时; 物品的耐久会在完成时出标记的地方减少，请看下一页。
+
+
+
+
+
+
+
+
+
+#Quality
+knowledge.anvil.7=如你所见，there's the two green pins that damage items if the blue marker is outside，either end of the bar itself is the dead zone. Be sure to distribute a mix of left-click and right-clicks to craft an item and think ahead before hitting. also note the metre moves right slower than left.
+knowledge.anvil.8=If you SHIFT-LEFT click however it will knock the metre back(to give you some more time to craft)，don't exceed 0 however，or it will ruin the item.
+
+knowledge.forge=锻造
+knowledge.forge.desc=温度升高.
+
+knowledge.forge.1=The forge is a simple device，put fuel in it (Right-click an item). and light it with a firestarter (like flint and steel).^It's easy! Just throw stuff in it and set it on fire!
+knowledge.forge.2=Forges burn at different temperatures depending on the fuel，the temperature depends on the last item thrown. $hBellows$r can be used to temporarily increase the temperature.^You can place heatable items(like ingots and hunks) in the forge，and they slowly will heat up.
+knowledge.forge.3=$y"WORKABLE"$r items are needed to use an anvil，$d"UNSTABLE"$r Items are too hot.^Use different fuels and bellows to get the temperature where you want it，and make sure to monitor your items.^NOTE: if a crucible(or similar) is above the forge: it cannot be accessed.
+
+knowledge.bellows=风箱
+knowledge.bellows.desc=注热
+knowledge.bellows.1=Sometimes the fire just isn't hot enough，or it may be taking to long to warm up. Using hotter fuels only takes you so far and can be wasteful when not needed.^Bellows can temporarily boost the temperature of forges by up to 50%. To use: Place them pointing at the desired block and right-click them
+knowledge.bellows.2=constantly. 它们可以透过方块工作.
+
+knowledge.trough=水槽
+knowledge.trough.desc=准备淬取
+knowledge.trough.1=Having to walk to or build near water sources can be tricky，and diging holes to fill your own water sources also gets annoying. Troughs are simple containers capable of quenching hot items，just right-click tongs or hot items on this. To fill: Right-click with a bucket or water jug，but make sure not to overfill it.
+
+knowledge.repair_basic=工具修复
+knowledge.repair_basic.desc=要经常维修好你的工具
+knowledge.repair_basic.1=It's likely that by now one of your precious tools has broken. And it also is likely that you looked like a right idiot when it happened.^Repair kits allow you to touch up on the durability of items when they get damaged. These kits don't repair much but do the job alright，just Right-Click the block with an item to
+knowledge.repair_basic.2=eventually repair it.^There is also a chance the kit will break，limiting their uses.
+
+
+
+knowledge.repair_advanced=工具高级修复
+knowledge.repair_advanced.desc=更好地维修你的工具
+knowledge.repair_advanced.1=You still look silly damaging items when using repair kits... These new kits，though more expensive，can repair more items before without breaking.^They will also repair more durability.
+
+
+knowledge.repair_ornate=华丽修复工具
+
+knowledge.repair_ornate.desc=附魔修复
+knowledge.repair_ornate.1=你可能已知附魔物品难修复。像是它们不喜欢被修复或怎样……无论如何此工具应达到目的，它或许比你在修复的东西有更多珠宝，但它有用！挑剔的附魔物品……
+
+knowledge.craftArmourBasic=盔甲
+knowledge.craftArmourBasic.desc=普通
+knowledge.craftArmourBasic.1=当你在这个世界上生存时，你尽可能地想办法保护自己。可是这些盔甲并没有给你提供多少护甲，但总比没有要好。
+
+
+knowledge.craftArmourLight=软甲
+knowledge.craftArmourLight.desc=实惠
+knowledge.craftArmourLight.1=软甲被设计为尽可能易穿戴，但是易磨损并且没有给你提供多少护甲，唯一的好处软甲是不会影响你在战斗中的发挥。^这些软甲最好在战术和闪避中穿戴。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.craftArmourMedium=装甲
+knowledge.craftArmourMedium.desc=尽可能保护穿戴者
+knowledge.craftArmourMedium.1=装甲是依照国际规定护甲标准（然并卵）而制作出来金属装备。降低了闪避的能力而增加了的护甲。^躲避和护甲是平衡的。
+
+
+
+knowledge.craftArmourMedium.scale=As an alternative，Scalemail can be created. Scale armor has more balanced protection against all forms of damage，not quite as effective against piercing and cutting resistance，it makes up in blunt.
+
+knowledge.craftArmourHeavy=重铠
+knowledge.craftArmourHeavy.desc=笨重而高护甲
+knowledge.craftArmourHeavy.1=Heavy armour is designed to take as much damage as possible. While wearing this，you will be unable to dodge and have significant disadvantage to blocking.^This armor is best used when shear force is needed and avoidance is left behind.
+knowledge.craftArmourHeavy.splint=Splintmail isn't quite as heavy as a full blown suit of plate，and has lesser protective qualities in return. However，splintmail is still far superior to medium armors and protects all damage types equally.
+
+
+
+
+
+
+
+knowledge.craftHCCTools=原始工具
+knowledge.craftHCCTools.desc=(HARDCORE CRAFTING)
+knowledge.craftHCCTools.1=With Hardcore Crafting active: Basic tools are not what they used to be... You need to work your way up to metal by crafting primitve stone tools first.^Primitive stone tools are made on the carpenter bench.
+knowledge.craftHCCTools.2=Every Stone tool needs 3 components to make:^Sharp rocks are gained by breaking stone bare-handed (No item held).^Vines can be gained by breaking leaves with a sharp rock.^Sticks can be gained similar to vines.
+knowledge.craftHCCTools.3=Stone can also be crafted from cobblestone，a hammer is first needed though.
+knowledge.craftHCCTools.4=With these thee components，a carpenter bench must be made for tool crafting: It is recommended to make a pick first，as they can mine stone (processed into rocks).
+
+knowledge.craftTools=锻造工具
+
+
+
+
+
+
+
+knowledge.craftTools.desc=精心地制作
+knowledge.craftTools.1=What is that? you throw a stick on some rocks and call that a tool? HA! These are how REAL tools are made!^All the goodness of normal tools only made properly，these tools have double the durability... and double the style.
+knowledge.craftTools.pick=Picks can also tell you a blocks tier and if it can be mined. Just right-click a block with a forged pick.
+
+knowledge.craftAdvTools=Advanced Tools
+knowledge.craftAdvTools.desc=Fit for purpose
+knowledge.craftAdvTools.1=Not only can you forge proper tools but there is also a selection of additional tools with their own uses. Most of these tools are alternatives to existing tools，only... different.
+knowledge.handpick.info=Handpicks have a chance to drop random items (like ores and minerals) from mining some blocks like stone and netherrack^Also they drop additional items from ore like coal and diamond.
+knowledge.hvypick.info=Heavy picks mean business! Upon breaking blocks; heavy picks mine a 3x3x3 block around them，with lower drop rates. Perfect for digging large caverns or mineshafts.
+knowledge.trow.info=This little cute spade works like a handpick. When digging dirt it can drop random items，grass can drop seeds.
+knowledge.hvyshovel.info=Apart from looking like a door on a haft; Heavy shovels are rather useful tools for digging.^When digging，these shovels will break a disc shaped hole，ignoring hills. Great for levelling terrain out.
+knowledge.scythe.info=Scythes can break grass or leaves within a large area when right-clicked，their good for farming and clearing up. Also: If you wear a black hood with it: You can scare old people!
+knowledge.mattock.info=$uMattocks Not Implemented$r
+
+knowledge.craftWeapons=锻造武器
+knowledge.craftWeapons.desc=对于"防御"（黑人问号.jpg）
+knowledge.craftWeapons.1=WTF??? 木剑？！…开玩笑！你可以做一个比这更好的...^不同的战斗方式使用不同的武器，所以总有一款适合你的战斗方式.
+knowledge.dagger.info=匕首的攻击是…真的很低。^但行动时十分便捷！对于消耗型攻击方式有着很好的帮助。
+knowledge.sword.info=A good old sword. Swords block the most damage and at the best arc. A finesse based blocking and countering style suits this weapon.
+knowledge.mace.info=For a good bop across the bonce!. Maces aren't that special and blocking damages the weapon more. But they have good durability and damage.
+
+
+knowledge.waraxe.info=A heavy hand axe for brutal hacking at your foes. War axes do decent damage and have bonuses when sprinting and jumping attacks. Good for the barbaric types. They also take more damage from blocking.
+knowledge.spear.info=If you're too scared for close combat，spears allow you to poke them from afar.. you know like you're just pushing them away with a long stick!^Spears do more damage when sprinting
+knowledge.bow.info=Standard wooden bow with metal joints.^Note that some more brittle metals (like pig iron) will lessen the damage of the item.^RIGHT-CLICK while sneaking to open the inventory. Ammo must be loaded before use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.craftAdvWeapons=重型武器
+knowledge.craftAdvWeapons.desc=大不大?（WTF？？？）
+knowledge.craftAdvWeapons.1=我不知道你打算杀死什么，但这里有一些...你可能会满意的东西。（嘿嘿嘿）
+knowledge.katana.info=武士刀是最轻的重型武器。攻击速度快，耐力消耗少。强击可以破坏护甲。^^忍者标配！~
+knowledge.greatsword.info=沉重，平刃的巨剑是最好的防御型重型武器。像剑：巨剑有不错的格挡性能。
+knowledge.warhammer.info=如果你想打烂敌人的头骨，你可以考虑下战锤。
+knowledge.battleaxe.info=双刃斧比战斧伤害的更高但也更重，一个更疯狂的野蛮武器。^就是用着累了点!
+knowledge.halbeard.info=如果觉得矛太弱， 你可以在上面加个斧头. 戟比矛的伤害更高但也跟重.^奔跑时戟可以刺.
+knowledge.lance.info=骑士枪没什么卵用. 但它们可以基于你的速度提高伤害.^不懂的话可以拿来比武.
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.firemaker=生火（举起你手中的火把）
+knowledge.firemaker.desc=燃烧一切（FFF的异端审判）
+knowledge.dryrocks.info=Dry rocks are the most basic，and least effective method of creating fire. Banging two of these together will create a flame after awhile.
+knowledge.tinderbox.info=The tinderbox is effective at starting fires and highly durable. It still may take a few tries to get a flame，but the extra uses pays off.
+knowledge.flintsteel.info=This is the most effective fire starter as it works instantly. Flint and Steels have less durability than a tinder box however.
+
+knowledge.craftCrafters=制作工具
+knowledge.craftCrafters.desc=这里制作各式各样的工具
+knowledge.craftCrafters.1=There's a variety of different tools for the purpose of crafting. A lot of recipes require you to interact with the block with these tools.
+knowledge.hammer.info=Hammers are used mostly in forging. hammers are highly useful for both metalworks and some woodworks.
+knowledge.hvyhammer.info=There also are heavier counterparts of the hammer，used for forging some of the larger metal items.
+knowledge.tongs.info=Tongs are used for picking up hot items from the anvil，to transfer to a water source. Unlike simply dropping hot items，tongs will place items above the block rather than randomly about.
+knowledge.knife.info=Knives can be used in cooking and tanning. Knives are useful.^^Just don't run with them.
+knowledge.saw.info=Saws can cut wood into planks more efficiently. Put a planks block on a carpenter bench and hit it with a saw.^Saws also are much more effective at salvaging items.
+knowledge.needle.info=针被用来缝纫基础配方，针被用在任何线被用到地方。
+knowledge.mallet.info=槌真不常见……它几乎仅被用在锤子或许会太过的地方。所以基本上：只有一些木制品用这个。
+knowledge.spoon.info=勺子。用于烹饪，通常搅拌……还有什么可说……这是勺子……
+knowledge.craftOrnateWeapons=华丽武器
+knowledge.craftOrnateWeapons.desc=幻想
+knowledge.craftOrnateWeapons.1=要是你没有看够拿着用珠宝与银子做的锃亮宝剑的男鸨。华丽武器对不死生物有更大伤害，他们会像香肠一样咝咝叫！但它们不擅长对付其他任何东西，因此你或许会被问到为什么你持双剑。
+knowledge.craftAdvOrnateWeapons=重华丽武器
+knowledge.craftAdvOrnateWeapons.desc=幻想。嗯
+knowledge.craftAdvOrnateWeapons.1=当然，你想要更大的！因为你有银子，而银子有点没用。我懂。（可以去弄合金，记得别丢掉）
+
+knowledge.arrows=箭羽
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.arrows.desc=制作箭
+
+knowledge.arrows.1=Crafting arrows can take some time，but still remains moderately low-cost. There are three components to an arrow: The head which you make out of metal. The fletching is made of paper and feathers to guide the arrow. And the shaft is just a stick!
+
+knowledge.arrowsBodkin=Bodkin Arrows
+knowledge.arrowsBodkin.desc=轻便快捷
+knowledge.arrowsBodkin.1=Bodkin heads can be fitted the same way as normal arrows. Although these arrows do less damage，they do fly much further.
+
+
+
+knowledge.arrowsBroad=Broad arrows
+knowledge.arrowsBroad.desc=Heavy and strong
+
+knowledge.arrowsBroad.1=Broad head arrows are heavy and slow but firing them packs a punch!
+
+knowledge.etools=Engineering Tools
+knowledge.etools.desc=Tools of the trade
+knowledge.etools.1=Engineering could be a delicate trade in some aspects. For that，you need tools that can handle these processes.
+
+knowledge.ecomponents=Components and Commodities
+knowledge.ecomponents.desc=For Engineering
+
+knowledge.ecomponents.1=For engineering，there's some nifty ways you can join components. However，you may need to find some alternative commodities for doing such. It's worthwhile to make a few of these for when their needed.
+
+knowledge.ecomponents.2=Most engineered objects aren't just forged. Construction usually takes pre-forged components and attatching them together. Components however are mostly used for specific purposes，and are better made on-site (Unless you intend to mass produce). 
+
+knowledge.coke=焦炭
+knowledge.coke.desc=Refined Fuels
+
+knowledge.coke.1=Alone，Coal is just full of impurities which reflect on poor burning capabilities. With much refinement，and the use of redstone，charcoal can be burned at a rate that completely removes all imperfections and leaves the coal in its purest form，for optimal fuel use. This process only works with charcoal however.
+
+knowledge.tungsten=Wolframite Smithing
+knowledge.tungsten.desc=Machine-Worthy Metal
+
+knowledge.tungsten.1=There's always a limit to using iron based materials in engineering; It just cannot handle the stress some machines have applied. Wolframite is a rare metal found within lower layers of stone. The ore itself can be found in rare occasions，but can also be found by use of a handpick.
+
+knowledge.tungsten.2=If you use a high enough tier (such as encrusted) below layer 16: It is possible to mine raw Wolframite ore.^After that，it's only a matter of refining it. Wolframite requires to be melted down with large amounts of coal and flux to separate the ore.
+
+knowledge.tungsten.3=Although this material is highly valued to engineers，it does require some decent smithing skills to refine the ore，making it even more difficult to acquire.
+
+knowledge.engTanner=高级制革架
+knowledge.engTanner.desc=简易地制革
+knowledge.engTanner.1=制作皮革是最累的生产方法之一，但是现在你可以让它生产得更简易^This tanning rack is able to slice and dice clean hide for you. Just place the item as usual than right-click the top.
+
+knowledge.advcrucible=自动化坩埚
+
+
+
+knowledge.advcrucible.desc=Easy Alloys
+knowledge.advcrucible.1=The technology of the crucible is rather low tec but now it is well known that harvesting the refined metals can be tedious.^These crucibles will be able to divide and cool the refined metals，ready for pickup.
+
+knowledge.advforge=高级锻造
+knowledge.advforge.desc=自动化锻造
+knowledge.advforge.1=Although making a basic forge is able to get anything done，its not very fuel-efficient. This redstone powered furnace allows you full control on if its lit or not. Apply a redstone signal to light it，cut the signal to extinguish.^This seems to produce heavy pollution though.
+
+
+knowledge.blackpowder=炸药
+knowledge.blackpowder.desc=轰！（爆炸吧，现充！）
+knowledge.blackpowder.1=Using generic gunpowder and TNT to blow things up may be satisfying but it makes one hell of a mess. It is possible however to create devices with more controlled explosions that limit the environmental damage.^Blackpowder is an explosive substance capable of doing large damage while limiting
+knowledge.blackpowder.2=the destruction of blocks.^It's not world-shatteringly powerful like the stuff creepers use.^Blackpowder is made from various minerals found while mining.
+
+
+
+
+
+
+
+
+
+knowledge.advblackpowder=Refined Blackpowder
+knowledge.advblackpowder.desc=咔轰!
+
+knowledge.advblackpowder.1=Blackpowder has proven useful for explosive creation but sometimes you may need more of a blast.^Through the use of redstone and glowstone: you can beef-up the power of blackpowder to increase damage.
+
+knowledge.climber=登山镐
+knowledge.climber.desc=Getting up there
+knowledge.climber.1=It's getting a bit awkward having to go around mountains and find stairways up the slopes，especially so if you just fell 50 metres down a cave. A climbing pick allows you to grapple solid blocks，only complete cubes can be grappled (such as stone and grass).
+knowledge.climber.2=To use this properly can be tricky. First off，hold down right-click on a block you're right up against (you can also do blocks above that). Then hit left-click to pull yourself up，holding shift and left clicking goes down. It is possible to climb sideways，and up overhangs，but is difficult.
+
+knowledge.spyglass=望远镜
+knowledge.spyglass.desc=Yondar!
+knowledge.spyglass.1=There's so much to see out there，but due to the limit of our eyes we have to walk all the way over there to see it... Not anymore.^Spyglasses allow you to see further when used，Shift-Right-Click changes the scope mode.
+
+knowledge.parachute=降落伞
+knowledge.parachute.desc=刚才什么飞上去了... 
+knowledge.parachute.1=You may know how to get up to a high place，but some time the ground may have something to say on the matter. Parachutes allow you to safely drop from high distances，slowly.
+
+knowledge.syringe=注射器
+knowledge.syringe.desc=简单地管理 
+knowledge.syringe.1=Drinking potions is slow and awkward in emergencies. Syringes allow you to inject potions directly into your system，being useful the moment you need it. You can also shift-click on others to use on them.^To Fill: Place an empty syringe and a regular potion on a crafting grid.
+
+knowledge.bombs=制作炸弹
+knowledge.bombs.desc=扩张爆炸范围
+
+knowledge.bombs.1=What use is blackpowder without something to put it in? Well these little gadgets will do serious damage to a small area.^Bomb crafting is more... experimental than other works. First of all: you need a workstation set up.
+
+knowledge.bombs.2=Now put that down... Wherever.^With this table you will be able to create both bombs and mines. Bombs can be thrown by holding right-click for a short time and they will explode at after a time. Mines however will be placed with holding right click and explode when something steps near them.
+
+knowledge.bombs.3=Bombs and Mines require 3-4 components in their creation.^The casing$h[1]$r determines the damage and range of the device. Powder$h[2]$r will modify damage. Filling$h[3]$r can be empty and is used to add effects to the bomb. Finally the fuse$h[4]$r determines the time until detonation.
+
+knowledge.bombs.4=To craft a bomb: simply put components in their respective slots for example cermic casing，blackpowder and a short fuse. then click the block to make a single bomb.
+
+knowledge.crossbows=制作弩弓
+knowledge.crossbows.desc=致命的一箭
+knowledge.crossbows.1=Crossbows are a custom-made firearm capable of dealing large amounts of damage with a reliable rate. Although these are usually slower than bows，crossbows can be made with a variety of components，allowing them to excel at a wider range of purposes.
+knowledge.crossbows.2=To create crossbows，you will need an assembly table.^This table allows the combination of parts to create a finished device. The traits of the crossbow depend on these 4 components (Stock，Arms，Mod and Muzzle). 
+knowledge.crossbows.3=Place this bench down in the desired location. Now you will need to create parts for your crossbow (See further entries).^The Stock and Arms are required for any crossbow. Stocks affect the recoil，and reload speed of the crossbow，short handles define "Hand crossbows" which are fast and inaccurate.
+knowledge.crossbows.4=You may also add both a mod and muzzle to the crossbow. Mods go on the top and can add additional functionalty (at a cost). Muzzles are mods specially designed to be fitted at the tip of the weapon (like a bayonet). It's always good not to add a mod if it's not needed.
+knowledge.crossbows.5=To craft a crossbow: Place the desired parts in their respected slots. (Similar to bomb crafting) You will then need to steadily click the block with a spanner to craft the item.
+knowledge.crossbows.6=When that's finished: you have a crossbow. Crossbows function differently to bows and can be fired immidiately if the weapon is ready. Sneak and use the item to open its inventory. This must be used. You can add any bolt to the inventory of the crossbow and it will load when you use it.
+
+
+knowledge.crossShafts=Crossbow Stocks
+knowledge.crossShafts.desc=Vital component
+
+knowledge.crossShafts.handle=Handles are miniture stocks designed for creating hand crossbows. This small design allows fast reload speed at the cost of accuracy and recoil.
+
+knowledge.crossShafts.stock=Stocks are full-sized versions of the Handle and are capable of firing a crossbow with less recoil. Due to their size，reduce the reload time.
+
+
+knowledge.crossHeads=Crossbow Arms
+
+knowledge.crossHeads.desc=Vital Component
+
+knowledge.crossHeads.light=A Lightweight crossbow head allows easy reload speed at a cost of power. This head can be modified multiple times to increase its weight and power.
+
+knowledge.crossHeads.medium=A standard sized crossbow head. This has a balanced power and speed.
+
+knowledge.crossHeads.heavy=A heavy-duty，reinforced crossbow head. This has a massive force behind it，and it shows with a high recoil and slow reload time.
+
+
+knowledge.crossHeadAdvanced=Advanced Crossbow Arms
+
+knowledge.crossHeadAdvanced.desc=Precision over speed
+
+knowledge.crossHeads.advanced=The Advanced crossbow head incorperates a complex design that focuses the bolt down a straight path. This head is stiff and hard to reload but can fire bolts with much less spread.
+
+
+knowledge.crossShaftAdvanced=Advanced Crossbow Stock
+
+knowledge.crossShaftAdvanced.desc=Recoil Control
+
+knowledge.crossShafts.advanced=Upgraded from a regular stock，this heavy iron stock is capable of absorbing the energy from firing a crossbow，granting great recoil reduction.
+
+
+
+knowledge.crossAmmo=Repeating Crossbow
+
+knowledge.crossAmmo.desc=Expanded capacity
+
+knowledge.crossAmmo.1=Crossbows can take time to reload，and you may need to fire more than once to get the job done. Repeating mechanisms go in the "mod" slot and allow crossbows to fire multiple shots before reloading (at a cost of accuracy)
+
+knowledge.crossScope=Crossbow Scope
+
+knowledge.crossScope.desc=Primitive Sniper
+
+knowledge.crossScope.1=What use would an accurate crossbow be without the ability to see what you're shooting at. Spyglasses can now be modified to fit onto crossbows in the "mod" slot.
+
+knowledge.crossBayonet=Crossbow Bayonet
+knowledge.crossBayonet.desc=Melee Damage
+knowledge.crossBayonet.1=While some reload their crossbows，it's usual for some jerk to take advantage of the situation，you need to fight back another way. Bayonets attach to the "muzzle" slot and can increase the melee damage from crossbows.
+
+knowledge.bpress=Bomb Press
+knowledge.bpress.desc=Mass Productive
+knowledge.bpress.1=Having to assemble each bomb individually can be tedious... very tedious. This device can do the work for you，all you need to do is place it directly above a bomb crafting table，pull the lever and it crafts the bomb for you.
+
+knowledge.bombarrow=Bomb Arrows
+knowledge.bombarrow.desc=To pack a punch
+knowledge.bombarrow.1=Your experience in the creations of bombs has paid off. These tiny explosives can be packed similar to bombs and deliver a deadly blast. Bomb arrows are created like any bomb，place the arrow casing in the case slot. These do not take fuses.
+
+knowledge.shrapnel=炸弹弹片
+knowledge.shrapnel.desc=Simple Filling
+
+knowledge.shrapnel.1=Bombs seem all well and good so far，but there seems to be room to improve. Each bomb is able to fit in a layer of filling that modifies the detonation of the device.^Shrapnel can be added in bomb crafting to increase the damage dealt from explosions.
+
+knowledge.firebomb=火焰爆炸
+knowledge.firebomb.desc=Deadly Incineration
+
+knowledge.firebomb.1=Adding shrapnel to bombs is very effective at elimiting ones fellow critters of the land. But there can be more insane carnage.^A mixture of magma cream can release a massive blast of pure flame upon detonation. Refined magma cream burns at such a high temperature few can withstand its blast.
+
+knowledge.firebomb.2=How it works is the magma cream (being a mixture of burning embers and sticky slime) is able to keep a self-sustaining flame while remaining as a spreadable substance. Additional blaze powder then reacts with a dragon heart to release a magical catalyst that increases the temperature of the flame.
+
+knowledge.firebomb.3=Incineration bombs may be expensive，but their extremely effective against armour.
+
+
+knowledge.bombCeramic=陶瓷炸弹壳
+knowledge.bombCeramic.desc=Basic Bombs
+knowledge.bombCeramic.1=Bombs are one of the simplest forms of explosives: Just throw it and it explodes.^Ceramic casings however are brittle and don't restrict the blast much. Bombs made from these will have an average explosion radius.
+knowledge.mineCeramic=陶瓷地雷壳
+knowledge.mineCeramic.desc=Basic Mines
+
+
+
+knowledge.mineCeramic.1=Mines aren't as useful as your conventional bomb but still have their place. A mine will explode when something walks near it.^Ceramic cases are brittle and unstable，this means their both sensetive and don't restrict blasts much. Ceramic mines have an average explosion radius.
+
+
+knowledge.bombIron=铁制炸弹壳
+knowledge.bombIron.desc=Compacted Blasts
+
+knowledge.bombIron.1=It normally would be wise to make a bomb easy to detonate... But why not let it build up some pressure?^Iron casings take a bit more force to break. This means when they do detonate the explosion(though smaller) has a bit more force behind it. 
+
+
+knowledge.mineIron=铁制地雷壳
+knowledge.mineIron.desc=Compacted Blasts
+
+knowledge.mineIron.1=Ceramic casings may bit too sensetive. Iron bomb casings not only allow the blast to build more pressure，but their solid construction makes them harder to trigger，reducing their range but increasing their damage.
+
+knowledge.bombObsidian=黑曜石炸弹壳
+knowledge.bombObsidian.desc=Sealing in the freshness
+knowledge.bombObsidian.1=You've taken one step with iron bombs，but why not go further?^Obsidian bombs restrict the blast so much the range is tiny，but the resulting blast is highly damaging.
+knowledge.mineObsidian=黑曜石地雷壳
+knowledge.mineObsidian.desc=Sealing in the freshness
+knowledge.mineObsidian.1=Mines may not be as useful as bombs，but they can pack a suprising punch.^Obsidian mines are hard and not very sensetive. These are only set off when something practically is standing on it... But that just means more of a lethal result.
+
+knowledge.bombCrystal=水晶炸弹壳
+
+
+
+
+
+
+
+
+knowledge.bombCrystal.desc=Stylish
+
+knowledge.bombCrystal.1=Reducing the blast radius to focus more on damage seems decent，but why not increase the blast radius?^Glass casings have no resistence meaning all the power spreads as far as possible.^And add some diamond into the mix so the shards cause more damage anyway!
+
+
+knowledge.mineCrystal=水晶地雷壳
+
+
+knowledge.mineCrystal.desc=Stylish
+
+knowledge.mineCrystal.1=A delicate glass mine. This can be set off real easy with a large explosion.^Not only that but adding diamond shards into the workings of the case just makes it hurt all the more (and by that I mean the person who stands on it，not the fact it cost you a diamond to make).
+
+
+knowledge.bombFuse=导火索
+knowledge.bombFuse.desc=定时爆炸
+knowledge.bombFuse.1=What's a bomb without a fuse? A massively blown up hand! Fuses are a vital part of any explosive devices，even mines use them to some extent.^The fuse you create determines how long until the device explodes.
+knowledge.bombFuse.2=You can also make an extended fuse. With this: bombs can be thrown much farther before exploding. Not much use on mines though...
+
+knowledge.stickybomb=粘性炸弹
+knowledge.stickybomb.desc=抓住它了!
+knowledge.stickybomb.1=Sticky bombs- as the name might suggest，are bombs that are sticky. And with this amazing trait: will attatch themselves to whatever poor sod gets in its way.^So what you have here is a bomb that does a lot of damage sticking to someone! Which never stops being funny.
+
+knowledge.stickybomb.2=To create these: Leave(or put) a bomb in the output slot and right-click the block with a slime ball. A single slimeball can coat a stack of any size.
+knowledge.cogArmour=外骨骼齿轮装甲
+knowledge.cogArmour.desc=充满了洪荒之力
+knowledge.cogArmour.1=Heavy armour has its limits，it may provide substantial protection but at a cost of mobility.^Cogwork suits use the momentum generated through complex contraptions to aid movement. Wearers of these suits will have increased strength，reducing stamina decay.
+
+knowledge.cogArmour.2=A basic frame of this suit may not offer much protection，but it greatly reduces fall damage and reduces stamina cost from actions，while the helmet filters smoke，meaning you suffer no negative effects from exposure.
+
+
+knowledge.cogArmour.mechanics.1=$hUse of Cogworks$r^Alone，single pieces of cogwork are extremely heavy and impossible to move in.^You need to have a chest，legs and boots all equipped in order for the suit to function. Not only that; but the chest needs fuel to move the suit in the first place.
+
+
+
+knowledge.cogArmour.mechanics.2=The helmet is not required for the suit to function，but since the suit generates smoke，it's good to protect yourself.^In total: These suits are so heavy，swimming becomes inpossible，be careful.
+
+
+knowledge.cogArmour.fuel=$hRefueling$r^As mentioned: The chest piece needs to be fuelled to function. In order to do this the chest piece must be unequipped，then used while sneaking. You need coke in your inventory which are consumed for fuel.
+
+
+knowledge.cogArmour.armour=With further refinement you are also able to create a super heavy，and powerful plating for cogwork suits. This plating upgrade grants superior resistance against all forms of damage. This can be made from nearly any metal and can greatly affect its properties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.compPlate=复合合金
+knowledge.compPlate.desc=广泛的用处
+knowledge.compPlate.1=When weight and clutter aren't an issue，there's more time to focus on the performance of armour. Regular metals by themselves have ups and downs and it's hard to get it perfect.
+
+knowledge.compPlate.2=This composite alloy combines multiple materials to create a hard，and solid material that is better than the sum of its parts. This alloy can compete with materials higher than its own. This can then be added to cogwork frames to create a suit of powerful protection.
+
+
+knowledge.refined_planks=精制木板
+knowledge.refined_planks.desc=结构稳定
+knowledge.refined_planks.1=Refined planks are both strong and resistent to weathering and should prove a decent building material. By nailing some of these together，you can make a block for building. This block cannot be taken apart.^You can also make this out of normal planks.
+
+
+
+
+
+knowledge.reinforced_stone=结实的石头
+knowledge.reinforced_stone.desc=负重
+knowledge.reinforced_stone.1=Stone is a useful material being strong，non-flammable and resists explosions. You can however，increase the capabilities of stone by melting some obsidian and kaolinite with it.^You will not need an ingot mould to retrieve this from the crucible.
+
+knowledge.clay_wall=粘土面板
+knowledge.clay_wall.desc=装饰墙壁
+knowledge.clay_wall.1=These walls are mainly for decorative purposes. Excellent for 2-story buildings and lining rooftops.
+
+knowledge.glass=玻璃块
+knowledge.glass.desc=装饰窗户
+knowledge.glass.1=Glass is decorative，but extremely fragile. Putting a frame around glass not only improves its strength，but allows it to be picked up safely without ruining its shape.
+
+knowledge.brickworks=基础砖块
+knowledge.brickworks.desc=普遍的石头
+knowledge.brickworks.1=There's more than one way to build with stone. Dirt and stone can make bricks and pavement.
+
+knowledge.bars=金属栅栏
+knowledge.bars.desc=结实的栅栏
+knowledge.bars.1=These bars are great for letting light in while remaining strong. Bars can be made out of common materials (not rare or exotic though).^It however is possible to make dragonforge bars that burn what touches it.
+
+
+knowledge.thatch=茅草
+knowledge.thatch.desc=柔软的屋顶
+knowledge.thatch.1=由茅草制作简单的屋顶。 这些可以和泥土很好的搭配起来，而且很容易制作。
+
+
+knowledge.paint_brush=油漆刷
+knowledge.paint_brush.desc=刷完它
+knowledge.paint_brush.1=It has come to your attention the obvious fact that spreading oil with your hands is just messy. You need a paint brush.^Paint brushes can refine planks much more efficiently and can be used to apply oil to pre-existing plank blocks.
+
+knowledge.paint_brush.2=$hPainting In-World$r^To save the trouble of going to the workbench every time，you can also paint some blocks in-game，So long as you have plant oil in your inventory，right-click blocks such as Nailed Planks to turn it into refined blocks.
+
+
+
+
+
+knowledge.decorated_stone=石材装饰
+
+knowledge.decorated_stone.desc=金属装饰
+knowledge.decorated_stone.1=石头看上去可能很单一，因此你学会了用金属装饰石头，为你的墙壁增加一点你的风格。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knowledge.generic_meat=一般的肉
+knowledge.generic_meat.desc=可以合成各种食物
+knowledge.generic_meat.1=There's a lot of meat out there. But sometimes，it shouldn't matter. Generic meat is made from a variety of meat types cooked or uncooked，used for easier storage and use in recipes.^You're better off preparing raw meat，as some can give additional output.
+
+knowledge.stew=炖肉
+knowledge.stew.desc=平淡无味
+knowledge.stew.1=You're no cook... not yet anyway. Stew is the food of the novice. Just throw some diced meat in a bowl and call it a meal! Stew can be made from steak，chicken，pork wolf，horse and even fish.
+
+knowledge.jerky=肉干
+knowledge.jerky.desc=旅行者的必需品
+knowledge.jerky.1=
+
+knowledge.saussage=香肠
+knowledge.saussage.desc=密封的肉
+knowledge.saussage.1=When rationing meats into jerky，you tend to sacrifice pleasure of consumption for practicality. No more chewy，salty，jerky! Saussages keep meat fresh in a casing made from... uh... entrails...
+
+knowledge.sandwitch=三明治
+knowledge.sandwitch.desc=简单的
+knowledge.sandwitch.1=一块肉和一些面包的混合物，你怎么会不知道？！ 三明治虽然不可堆叠但是可以食用两次。
+
+
+knowledge.sandwitchBig=超大三明治
+knowledge.sandwitchBig.desc=超长
+knowledge.sandwitchBig.1=你现在可以用更多的馅料加入面包里制作三明治,它们可以食用4次.
+
+
+knowledge.meatpie=肉馅饼
+knowledge.meatpie.desc=丰富的馅料
+knowledge.meatpie.1=有什么比把肉放在馅饼里更好？没有！肉馅饼可以提供高耐力buff。也可以放置饼块，用刀右键单击切一片饼片。
+
+
+knowledge.shepardpie=Shepards派
+knowledge.shepardpie.desc=You can eat it if you're not a shepard too
+
+knowledge.shepardpie.1=Even better than a meat pie，now with potato! And a bigger stamina buff. Place the pie block and right-click with a knife to cut a slice.
+
+knowledge.salt=盐
+knowledge.salt.desc=多一点点
+knowledge.salt.1=Salt is an additive for cooking sometimes used. To create salt，first gather some salt water.^Salt water is gathered by right-clicking a a Clay Pot on water that is directly above sand(such as a beach). Then cook this to produce salt.
+
+knowledge.salt.2=Clay pots are able to handle constant carrying and dying of salt water without decaying. These are used to gather salt water.^Salt water is detemined by being directly above sand OR being a beach/ocean biome.
+
+knowledge.jug=罐子
+knowledge.jug.desc=储存液体
+knowledge.jug.1=Food can be picky with quantities，due to this，and the fact you can't carry liquids，jugs will be used. Jugs can store milk，water and oil.
+
+knowledge.jug.2=Water can be gathered similar to buckets through right-click，but can also be converted from buckets. Milk cannot be obtained directly from cows.
+
+knowledge.bread=面包和糕点
+knowledge.bread.desc=颗粒状
+knowledge.bread.1=Bread may be a boring meal alone，but can be used in conjunction with other，more interesting food.^Flour however can be used for making all kinds of pastries.
+
+knowledge.bread.other=Some recipes (such as bread as mentioned before) have alternate recipes，though are still inferior to MF food.
+
+
+knowledge.oats=燕麦
+knowledge.oats.desc=健康的基础要求
+knowledge.oats.1=并不是所有的食物都是混合物。 你可以选择食用这种天然谷物混合物保持健康。
+
+
+knowledge.icing=糖
+knowledge.icing.desc=含糖即是正义
+knowledge.icing.1=加一点糖没有什么问题，除非它保存在某人的口袋里三天（作者好恶心）...你可以直接用手杖研磨甘蔗制作糖（wtf？！），然后用容器储存糖，当然也可以把糖放在口袋里（卧槽，你还来说这个）。
+
+knowledge.icing.2=Some food just isn't quite complete without icing. Icing is used in many sweet food recipes.
+
+knowledge.sweetroll=甜甜圈
+knowledge.sweetroll.desc=让我猜猜看...
+knowledge.sweetroll.1=Sweetrolls are a sugary treat anyone can enjoy. Eating one of these，though not filling restores stamina and gives stamina regen. Sweetrolls can be eaten twice.
+
+knowledge.eclair=泡芙
+knowledge.eclair.desc=花式小吃
+knowledge.eclair.1=Now you're just showing off... But some of us just can't do without the fanciest of sweeties...^These little heart attacks in a pastry can be eaten 4 times.
+
+knowledge.cake=蛋糕
+knowledge.cake.desc=正确的制作方式!
+knowledge.cake.1=一个大蛋糕可以恢复体力。放置蛋糕块，可以用刀右键点击切一片糕片。
+
+
+knowledge.carrotcake=胡萝卜蛋糕
+knowledge.carrotcake.desc=有点健康...
+knowledge.carrotcake.1=蛋糕里加入了胡萝卜（作者的废话好多，好想打他）。可以恢复体力并且一小段时间持续恢复体力。可以放置蛋糕块，可以用刀右键点击切一片糕片。
+
+
+knowledge.chococake=巧克力蛋糕
+knowledge.chococake.desc=好吃得要死
+knowledge.chococake.1=巧克力蛋糕可以恢复体力和再生buff。可以放置蛋糕块，可以用刀右键点击切一片糕片。
+
+
+knowledge.bfcake=黑森林蛋糕
+knowledge.bfcake.desc=美味
+knowledge.bfcake.1=黑森林蛋糕可以恢复体力并且可以让体力消耗减小。可以放置蛋糕块，可以用刀右键点击切一片糕片。
+
+
+knowledge.berrypie=浆果派
+knowledge.berrypie.desc=简易的甜点
+knowledge.berrypie.1=Berries are nice and juicy，but you may want to do something with them. Berry pies restore some stamina and give a stamina regen buff for a short time. Place the pie block and right-click with a knife to cut a slice.
+
+knowledge.applepie=苹果派
+knowledge.applepie.desc=简易的甜点
+knowledge.applepie.1=Similar to berry pies only with slightly better effects. Apple pies restore some stamina and give a stamina regen buff for a short time. Place the pie block and right-click with a knife to cut a slice.
+
+knowledge.cheese=奶酪
+knowledge.cheese.desc=固体奶酪
+knowledge.cheese.1=奶酪由炼牛奶制成。 它可以合成其他的食物。 可以放置奶酪块，用刀右键点击切下一片。
+
+
+knowledge.cheeseroll=奶酪卷
+knowledge.cheeseroll.desc=简易的小吃
+knowledge.cheeseroll.1=奶酪和面包是很好的混合物。 把一点奶酪放在卷子里，给它增加一些味道。
+
+
+knowledge.firepit=火塘和煎锅
+knowledge.firepit.desc=基础烹饪
+knowledge.firepit.1=The firepit is the easist way to steadily provide flame for cooking and lighting purposes and can be made with litte cost.^To create a fire，place a firepit block and right-click timber items to add fuel，then right-click with a firestarter.
+knowledge.firepit.2=Cooking plates are used to cook food，these must be placed on top of a heat source (firepit or forge).^Right-click raw food ontop of the plate to place it，and wait until it cooks，try not to overcook it. If you use a forge，be careful not to make it too hot (plain coal should do).
+knowledge.firepit.3=Ovens are able to cook baked items such as bread as well as that of a normal cooktop.^Ovens are also required to make ceramics out of clay making them useful in cooking as well as other crafts.
+
+knowledge.cookingutensil=炊具
+knowledge.cookingutensil.desc=烹饪食物吧
+knowledge.cookingutensil.1=烹饪，用各种不可使用的东西烹饪食物. 这些大多是盘子和陶罐. 工具: 见基础部分.
+
+
+knowledge.bandage=绷带
+knowledge.bandage.desc=急救
+knowledge.bandage.1=残血时右键使用绑带可以快速的回复生命值.^然而在饥饿，溺水，灼烧，中毒时没什么卵用.
+
+
+knowledge.bandageadv=精良的绷带
+knowledge.bandageadv.desc=稀有物品
+knowledge.bandageadv.1=他们是很珍贵的
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/MASTERY TEXT/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+knowledge.title=
+knowledge.title.desc=
+knowledge.title.1=
+
+knowledge.fitness=健康值
+knowledge.fitness.desc=保持你的健康
+knowledge.fitness.1=Your biggest foe in battle is your energy (well apart from the actual enemy).^Stamina decays 25% Slower.
+
+knowledge.toughness=韧性
+knowledge.toughness.desc=攻克它!
+knowledge.toughness.1=Your constant exposure to battle has granted you a higher resistance to the elements.^Damage from all sources is reduced by 25%.
+
+knowledge.armourpro=装备熟练度
+knowledge.armourpro.desc=承受的重量
+knowledge.armourpro.1=After all this time，your core has become stronger.^Armor penalty to stamina cost is halved.
+
+knowledge.parrypro=闪避
+knowledge.parrypro.desc=控制你的运动
+knowledge.parrypro.1=The position in the battlefield is an important weapon and should be used to your advantage.^Holding shift when parrying allows you to leap towards，and past your opponent. This is useful to slip past their defenses.
+
+knowledge.counteratt=反击
+knowledge.counteratt.desc=反弹
+knowledge.counteratt.1=Parrying may protect you but it throws you off balance a bit，however you are experienced enough to use this to your advantage.^Right after parrying you can do an alternate attack that does different damage.
+
+knowledge.counteratt.2=Swords，Daggers and Katanas do a piercing stab.^Waraxes use their piercing back.^Heavy weapons deal a pummel smash.^Blunt weapons and polearms have no effect.
+
+knowledge.autoparry=自动闪避
+knowledge.autoparry.desc=瞄准目标
+knowledge.autoparry.1=闪避的技巧已经深深的记在你的肌肉当中.^除了格挡你还可以闪避伤害 
+
+knowledge.scrapper=拾荒者
+knowledge.scrapper.desc=收集一切
+knowledge.scrapper.1=能够让你更容易分解你理解的合成物^分解几率UP.
+
+
+knowledge.firstaid=急救
+knowledge.firstaid.desc=容易受伤
+knowledge.firstaid.1=你需要时刻准备治疗伤口。^绷带使用速度加快。
+
+knowledge.doctor=医生
+knowledge.doctor.desc=义务效益
+knowledge.doctor.1=你不断的救助你的同胞,并因此获得了医学上的经验。^绑带治疗加成50%
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/DWARVERN TEXT/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+knowledge.title=
+knowledge.title.desc=
+knowledge.title.1=
+
+
+
+
+
+knowledge.dwarvernKnowledge=矮人的知识
+knowledge.dwarvernKnowledge.desc=工匠专家
+
+
+knowledge.dwarvernKnowledge.1=
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/GNOMISH TEXT/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+knowledge.title=
+knowledge.title.desc=
+knowledge.title.1=
+
+knowledge.gnomishKnowledge=地精的智慧
+knowledge.gnomishKnowledge.desc=熟练的工匠
+
+
+knowledge.gnomishKnowledge.1=
